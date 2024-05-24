@@ -132,8 +132,9 @@ Wei Yao\*, **Zhanke Zhou\***, Zhicong Li, Bo Han, Yong Liu✉️. -->
 - *2018.03 - 2021.01*, Core Member @HUST-[Dian Group](https://dian.org.cn/), advised by Dr. Yayu Gao, Dr. Chengwei Zhang, and Dr. Xiaojun Hei.
 
 # 💻 Resources
-*I believe that the best things should be free, just like air.*  
-*Therefore, I prefer open-source research, and hope the following resources can help you :)*
+
+*I hold that life's best resources, like air, should be free.*  
+*Hence, I champion open-source research and hope the following resources can benefit you :)*
 
 ## Projects
 - [Awesome-model-inversion-attack](https://github.com/AndrewZhou924/Awesome-model-inversion-attack)
