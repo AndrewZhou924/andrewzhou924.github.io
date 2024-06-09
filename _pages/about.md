@@ -22,7 +22,7 @@ My research interests lie in **trustworthy machine reasoning** with structural d
 
 <!-- *TODO: research belief and position.* -->
 
-*Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) for research, collaborations, or a casual chat.* 
+*Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) for research, collaborations, or a casual chat. My Wechat ID is zhouzhanke924.* 
 
 <!-- *Please consider giving me [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSeE4_y14QlUtJ8MhltnGnWwco7J1sWprXnlGoFWFo002k26lw/viewform?usp=sf_link).* -->
 
@@ -104,8 +104,9 @@ Wei Yao\*, **Zhanke Zhou\***, Zhicong Li, Bo Han, Yong Liu✉️. -->
   Yongqi Zhang, **Zhanke Zhou**, Quanming Yao✉️, Yong Li. -->
 
 # 🎖 Awards
-- *2024.05*, Best Research Performance Award of HKBU.
-- *2023.11*, Research Excellence Award of HKBU.
+- *2024.06*, Best Poster Award by COMP of HKBU.
+- *2024.05*, Best Research Performance Award by COMP of HKBU.
+- *2023.11*, Research Excellence Award by COMP of HKBU.
 - *2021.06*, Honorary degree of HUST (Top 2%, highest honour for undergrad).
 - *2021.06*, Outstanding Graduate Award of HUST.
 
