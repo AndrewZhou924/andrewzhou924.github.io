@@ -35,49 +35,14 @@ and Information Engineering (SeedClass).
 <!-- # Research
 TODO: a short summary of my research -->
 
-<!-- Featured Publications -->
 # 📝 Selected Publications
 \* Co-first author, ✉️ Corresponding author.
 
-<!-- - ``ICML 2024`` Envisioning Outlier Exposure for Out-of-distribution Detection.  
-  Chentao Cao, Zhun Zhong, **Zhanke Zhou**, Yang Liu, Tongliang Liu, Bo Han✉️. -->
-<!-- - ``Arxiv 2024`` DeepInception: Hypnotize Large Language Model to Be Jailbreaker.  
-[[paper]](https://arxiv.org/pdf/2311.03191.pdf)
-[[code]](https://github.com/tmlr-group/DeepInception)
-[[website]](https://deepinception.github.io/)
-[[slides]](./_pages/data/slides-DeepInception.pdf)
-[[twitter]](https://twitter.com/Jianing9810/status/1721894260231098812)
-[[CN-video]](https://www.bilibili.com/video/BV16N4y1i7Rw/?t=2477)
-[[CN-blog]](https://mp.weixin.qq.com/s/PufSBheCrJsjzkC4LD20Nw)  
-Xuan Li\*, **Zhanke Zhou\***, Jianing Zhu\*, Jiangchao Yao, Tongliang Liu, Bo Han✉️. -->
-- ``ICLR 2024`` Less is More: One-shot Subgraph Reasoning on Large-scale Knowledge Graphs.  
-[[paper]](https://arxiv.org/pdf/2403.10231.pdf)
-[[code]](https://github.com/tmlr-group/one-shot-subgraph)
-[[slides]](/_pages/data/slides-one-shot-subgraph.pdf)
-[[poster]](/_pages/data/poster-one-shot-subgraph.pdf)
-[[EN-video]](https://recorder-v3.slideslive.com/?share=92165&s=396ea382-bc2a-451b-8ee0-111e94581a7b)  
-  **Zhanke Zhou**, Yongqi Zhang, Jiangchao Yao, Quanming Yao, Bo Han✉️.
-- ``ICLR 2024`` Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel.  
-[[paper]](https://arxiv.org/pdf/2311.01276.pdf)
-[[code]](https://github.com/tmlr-group/NeuralAtom)
-[[slides]](/_pages/data/slides-neural-atoms.pdf)
-[[poster]](/_pages/data/poster-neural-atoms.pdf)
-[[EN-video]](https://recorder-v3.slideslive.com/?share=92308&s=8e966150-4ba4-41b7-97d3-8ed0c1a1cd0c)
-[[CN-video]](https://www.bilibili.com/video/BV1qH4y1L7mb/?share_source=copy_web&vd_source=65ec14228a98f635bf0406f14c7f8660&t=5342)  
-  Xuan Li\*, **Zhanke Zhou\***, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️.
-<!-- - ``TMLR 2024`` Understanding Fairness Surrogate Functions in Algorithmic Fairness.
-[[paper]](https://arxiv.org/pdf/2310.11211.pdf)  
-Wei Yao\*, **Zhanke Zhou\***, Zhicong Li, Bo Han, Yong Liu✉️. -->
-- ``NeurIPS 2023`` Combating Bilateral Edge Noise for Robust Link Prediction.  
-[[paper]](https://arxiv.org/pdf/2311.01196.pdf)
-[[code]](https://github.com/tmlr-group/RGIB)
-[[slides]](/_pages/data/slides-RGIB.pdf)
-[[poster]](/_pages/data/poster-RGIB.pdf)
-[[EN-video]](https://slideslive.com/39010502/combating-bilateral-edge-noise-for-robust-link-prediction?ref=search-presentations)
-[[CN-video]](https://www.bilibili.com/video/BV1cQ4y1x76L/?t=4490)
-[[CN-blog]](https://mp.weixin.qq.com/s/0GypXaICRLrJFywLpdW8bA)  
-  **Zhanke Zhou**, Jiangchao Yao✉️, Jiaxu Liu, Xiawei Guo, Quanming Yao, Li He, Liang Wang, Bo Zheng, Bo Han✉️.
-- ``ICML 2023`` On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation.  
+<!-- ICML 2023 - MC-GRA -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2023</div><img src='/_pages/data/figures/MCGRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation.  
 [[paper]](https://arxiv.org/pdf/2306.09104.pdf)
 [[code]](https://github.com/tmlr-group/MC-GRA)
 [[slides]](/_pages/data/slides-GRA.pdf)
@@ -86,7 +51,98 @@ Wei Yao\*, **Zhanke Zhou\***, Zhicong Li, Bo Han, Yong Liu✉️. -->
 [[CN-video]](https://www.bilibili.com/video/BV1ag4y1Q7ye/?t=7945)
 [[CN-blog]](https://mp.weixin.qq.com/s/hKSEMuNx6-g5SXfLjveDlw)  
   **Zhanke Zhou**, Chenyu Zhou, Xuan Li, Jiangchao Yao✉️, Quanming Yao, Bo Han✉️.
-- ``KDD 2023`` Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge Graph Reasoning.  
+
+<details>
+<summary>Quick Introduction</summary>
+Although powerful graph neural networks (GNNs) have boosted numerous real-world applications, the potential privacy risk is still under-explored. To close this gap, we perform the first comprehensive study of graph reconstruction attack that aims to reconstruct the adjacency of nodes.<br><br>
+
+We show that a range of factors in GNNs can lead to the surprising leakage of private links. Especially by taking GNNs as a Markov chain and attacking GNNs via a flexible chain approximation, we systematically explore the underneath principles of graph reconstruction attack, and propose two information theory-guided mechanisms: (1) the chain-based attack method with adaptive designs for extracting more private information; (2) the chain-based defense method that sharply reduces the attack fidelity with moderate accuracy loss.<br><br>
+
+Such two objectives disclose a critical belief that to recover better in attack, you must extract more multi-aspect knowledge from the trained GNN; while to learn safer for defense, you must forget more link-sensitive information in training GNNs. Empirically, we achieve state-of-the-art results on six datasets and three common GNNs.
+</details>
+</div>
+</div>
+
+<!-- NeurIPS 2023 - RGIB -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='/_pages/data/figures/RGIB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Combating Bilateral Edge Noise for Robust Link Prediction.  
+[[paper]](https://arxiv.org/pdf/2311.01196.pdf)
+[[code]](https://github.com/tmlr-group/RGIB)
+[[slides]](/_pages/data/slides-RGIB.pdf)
+[[poster]](/_pages/data/poster-RGIB.pdf)
+[[EN-video]](https://slideslive.com/39010502/combating-bilateral-edge-noise-for-robust-link-prediction?ref=search-presentations)
+[[CN-video]](https://www.bilibili.com/video/BV1cQ4y1x76L/?t=4490)
+[[CN-blog]](https://mp.weixin.qq.com/s/0GypXaICRLrJFywLpdW8bA)  
+  **Zhanke Zhou**, Jiangchao Yao✉️, Jiaxu Liu, Xiawei Guo, Quanming Yao, Li He, Liang Wang, Bo Zheng, Bo Han✉️.
+
+<details>
+<summary>Quick Introduction</summary>
+Although link prediction on graphs has achieved great success with the development of graph neural networks (GNNs), the potential robustness under the edge noise is still less investigated.  To close this gap, we first conduct an empirical study to disclose that the edge noise bilaterally perturbs both input topology and target label, yielding severe performance degradation and representation collapse.<br><br> 
+
+To address this dilemma, we propose an information-theory-guided principle, Robust Graph Information Bottleneck (RGIB), to extract reliable supervision signals and avoid representation collapse. Different from the basic information bottleneck, RGIB further decouples and balances the mutual dependence among graph topology, target labels, and representation, building new learning objectives for robust representation against the bilateral noise. <br><br>
+
+Two instantiations, RGIB-SSL and RGIB-REP, are explored to leverage the merits of different methodologies, i.e., self-supervised learning and data reparameterization, for implicit and explicit data denoising, respectively. Extensive experiments on six datasets and three GNNs with diverse noisy scenarios verify the effectiveness of our RGIB instantiations.
+</details>
+</div>
+</div>
+
+
+<!-- ICLR 2024 - One-shot-subgraph -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/_pages/data/figures/one-shot-subgraph.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Less is More: One-shot Subgraph Reasoning on Large-scale Knowledge Graphs.  
+[[paper]](https://arxiv.org/pdf/2403.10231.pdf)
+[[code]](https://github.com/tmlr-group/one-shot-subgraph)
+[[slides]](/_pages/data/slides-one-shot-subgraph.pdf)
+[[poster]](/_pages/data/poster-one-shot-subgraph.pdf)
+[[EN-video]](https://recorder-v3.slideslive.com/?share=92165&s=396ea382-bc2a-451b-8ee0-111e94581a7b)  
+**Zhanke Zhou**, Yongqi Zhang, Jiangchao Yao, Quanming Yao, Bo Han✉️.
+
+<details>
+<summary>Quick Introduction</summary>
+To deduce new facts on a knowledge graph (KG), a link predictor learns from the graph structure and collects local evidence to find the answer to a given query. However, existing methods suffer from a severe scalability problem due to the utilization of the whole KG for prediction, which hinders their promise on large-scale KGs and cannot be directly addressed by vanilla sampling methods.<br><br>
+
+In this work, we propose the one-shot-subgraph link prediction to achieve efficient and adaptive prediction. The design principle is that, instead of directly acting on the whole KG, the prediction procedure is decoupled into two steps, i.e., (i) extracting only one subgraph according to the query and (ii) predicting on this single, query-dependent subgraph.<br><br> 
+
+We reveal that  the non-parametric and computation-efficient heuristics Personalized PageRank (PPR) can effectively identify the potential answers and supporting evidence. With efficient subgraph-based prediction, we further introduce the automated searching of the optimal configurations in both data and model spaces. Empirically, we achieve promoted efficiency and leading performances on five large-scale benchmarks.
+</details>
+</div>
+</div>
+
+
+<!-- ICLR 2024 - Neural Atoms -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/_pages/data/figures/neural-atoms.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel.  
+[[paper]](https://arxiv.org/pdf/2311.01276.pdf)
+[[code]](https://github.com/tmlr-group/NeuralAtom)
+[[slides]](/_pages/data/slides-neural-atoms.pdf)
+[[poster]](/_pages/data/poster-neural-atoms.pdf)
+[[EN-video]](https://recorder-v3.slideslive.com/?share=92308&s=8e966150-4ba4-41b7-97d3-8ed0c1a1cd0c)
+[[CN-video]](https://www.bilibili.com/video/BV1qH4y1L7mb/?share_source=copy_web&vd_source=65ec14228a98f635bf0406f14c7f8660&t=5342)  
+  Xuan Li\*, **Zhanke Zhou\***, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️.
+
+<details>
+<summary>Quick Introduction</summary>
+Graph Neural Networks (GNNs) have been widely adopted for drug discovery with molecular graphs. Nevertheless, current GNNs mainly excel in leveraging short-range interactions (SRI) but struggle to capture long-range interactions (LRI), both of which are crucial for determining molecular properties.<br><br> 
+
+To tackle this issue, we propose a method to abstract the collective information of atomic groups into a few Neural Atoms by implicitly projecting the atoms of a molecular. Specifically, we explicitly exchange the information among neural atoms and project them back to the atoms’ representations as an enhancement. With this mechanism, neural atoms establish the communication channels among distant nodes, effectively reducing the interaction scope of arbitrary node pairs into a single hop. <br><br>
+
+To provide an inspection of our method from a physical perspective, we reveal its connection to the traditional LRI calculation method, Ewald Summation. The Neural Atom can enhance GNNs to capture LRI by approximating the potential LRI of the molecular. We conduct extensive experiments on four long-range graph benchmarks, covering graph-level and link-level tasks on molecular graphs. We achieve up to a 27.32\% and 38.27\% improvement in the 2D and 3D scenarios, respectively. Empirically, our method can be equipped with an arbitrary GNN to help capture LRI.
+</details>
+</div>
+</div>
+
+
+<!-- KDD 2023 - AdaProp -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2023</div><img src='/_pages/data/figures/AdaProp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge Graph Reasoning.  
 [[paper]](https://arxiv.org/pdf/2205.15319.pdf)
 [[code]](https://github.com/LARS-research/AdaProp)
 [[slides]](/_pages/data/slides-AdaProp.pdf)
@@ -94,14 +150,17 @@ Wei Yao\*, **Zhanke Zhou\***, Zhicong Li, Bo Han, Yong Liu✉️. -->
 [[EN-video]](https://www.youtube.com/watch?v=4YggNGOcTOk)
 [[CN-video]](https://www.bilibili.com/video/BV1EP411p7fP/?t=2078)  
   Yongqi Zhang\*, **Zhanke Zhou\***, Quanming Yao✉️, Xiaowen Chu, Bo Han.
-<!-- - ``ACL 2022`` KGTuner: Efficient Hyper-parameter Search for Knowledge Graph Learning.  
-[[paper]](https://arxiv.org/pdf/2205.02460.pdf)
-[[code]](https://github.com/LARS-research/KGTuner)
-[[slides]](/_pages/data/slides-KGTuner.pdf)
-[[poster]](/_pages/data/poster-KGTuner.pdf)
-[[EN-video]](https://www.youtube.com/watch?v=wSbJKPtUNjo/&t=1h52m)
-[[CN-blog]](https://mp.weixin.qq.com/s/Pt9j7Zm0ujVQHzt650zYvA)  
-  Yongqi Zhang, **Zhanke Zhou**, Quanming Yao✉️, Yong Li. -->
+
+
+<details>
+<summary>Quick Introduction</summary>
+Due to the popularity of Graph Neural Networks (GNNs),  various GNN-based methods have been designed to reason on knowledge graphs (KGs). An important design component of GNN-based KG reasoning methods is called the propagation path, which contains a set of involved entities in each propagation step. Existing methods use hand-designed propagation paths, ignoring the correlation between the entities and the query relation. In addition, the number of involved entities will explosively grow at larger propagation steps. <br><br>
+
+In this work, we are motivated to learn an adaptive propagation path in order to filter out irrelevant entities while preserving promising targets. First, we design an incremental sampling mechanism where the nearby targets  and layer-wise connections can be preserved with linear complexity. Second, we design a learning-based sampling distribution to identify the semantically related entities. Extensive experiments show that our method is powerful, efficient and semantic-aware.
+</details>
+</div>
+</div>
+
 
 # 🎖 Awards
 - *2024.06*, Best Poster Award by COMP of HKBU.
