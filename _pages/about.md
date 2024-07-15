@@ -22,7 +22,7 @@ My research interests lie in **trustworthy machine reasoning** with structural d
 
 <!-- *TODO: research belief and position.* -->
 
-*Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) for research, collaborations, or a casual chat. My Wechat ID is zhouzhanke924.* 
+*Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) for research, collaborations, or a casual chat.* 
 
 <!-- *Please consider giving me [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSeE4_y14QlUtJ8MhltnGnWwco7J1sWprXnlGoFWFo002k26lw/viewform?usp=sf_link).* -->
 
@@ -39,9 +39,12 @@ TODO: a short summary of my research -->
 \* Co-first author, ✉️ Corresponding author.
 
 <!-- ICML 2023 - MC-GRA -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2023</div><img src='/_pages/data/figures/MCGRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">ICML 2023</div> -->
+<img src='/_pages/data/figures/MCGRA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+**[ICML 2023]**
 On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation.  
 [[paper]](https://arxiv.org/pdf/2306.09104.pdf)
 [[code]](https://github.com/tmlr-group/MC-GRA)
@@ -64,9 +67,12 @@ Such two objectives disclose a critical belief that to recover better in attack,
 </div>
 
 <!-- NeurIPS 2023 - RGIB -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='/_pages/data/figures/RGIB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">NeurIPS 2023</div> -->
+<img src='/_pages/data/figures/RGIB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+**[NeurIPS 2023]**
 Combating Bilateral Edge Noise for Robust Link Prediction.  
 [[paper]](https://arxiv.org/pdf/2311.01196.pdf)
 [[code]](https://github.com/tmlr-group/RGIB)
@@ -90,9 +96,12 @@ Two instantiations, RGIB-SSL and RGIB-REP, are explored to leverage the merits o
 
 
 <!-- ICLR 2024 - One-shot-subgraph -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/_pages/data/figures/one-shot-subgraph.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">ICLR 2024</div> -->
+<img src='/_pages/data/figures/one-shot-subgraph.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+**[ICLR 2024]**
 Less is More: One-shot Subgraph Reasoning on Large-scale Knowledge Graphs.  
 [[paper]](https://arxiv.org/pdf/2403.10231.pdf)
 [[code]](https://github.com/tmlr-group/one-shot-subgraph)
@@ -114,9 +123,12 @@ We reveal that  the non-parametric and computation-efficient heuristics Personal
 
 
 <!-- ICLR 2024 - Neural Atoms -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='/_pages/data/figures/neural-atoms.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">ICLR 2024</div> -->
+<img src='/_pages/data/figures/neural-atoms.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+**[ICLR 2024]**
 Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel.  
 [[paper]](https://arxiv.org/pdf/2311.01276.pdf)
 [[code]](https://github.com/tmlr-group/NeuralAtom)
@@ -139,9 +151,12 @@ To provide an inspection of our method from a physical perspective, we reveal it
 
 
 <!-- KDD 2023 - AdaProp -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2023</div><img src='/_pages/data/figures/AdaProp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">KDD 2023</div> -->
+<img src='/_pages/data/figures/AdaProp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+**[KDD 2023]**
 Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge Graph Reasoning.  
 [[paper]](https://arxiv.org/pdf/2205.15319.pdf)
 [[code]](https://github.com/LARS-research/AdaProp)
@@ -149,7 +164,7 @@ Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge 
 [[poster]](/_pages/data/poster-AdaProp.pdf)
 [[EN-video]](https://www.youtube.com/watch?v=4YggNGOcTOk)
 [[CN-video]](https://www.bilibili.com/video/BV1EP411p7fP/?t=2078)  
-  Yongqi Zhang\*, **Zhanke Zhou\***, Quanming Yao✉️, Xiaowen Chu, Bo Han.
+Yongqi Zhang\*, **Zhanke Zhou\***, Quanming Yao✉️, Xiaowen Chu, Bo Han.
 
 
 <details>
@@ -157,6 +172,58 @@ Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge 
 Due to the popularity of Graph Neural Networks (GNNs),  various GNN-based methods have been designed to reason on knowledge graphs (KGs). An important design component of GNN-based KG reasoning methods is called the propagation path, which contains a set of involved entities in each propagation step. Existing methods use hand-designed propagation paths, ignoring the correlation between the entities and the query relation. In addition, the number of involved entities will explosively grow at larger propagation steps. <br><br>
 
 In this work, we are motivated to learn an adaptive propagation path in order to filter out irrelevant entities while preserving promising targets. First, we design an incremental sampling mechanism where the nearby targets  and layer-wise connections can be preserved with linear complexity. Second, we design a learning-based sampling distribution to identify the semantically related entities. Extensive experiments show that our method is powerful, efficient and semantic-aware.
+</details>
+</div>
+</div>
+
+
+
+<!-- ICML - EOE -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/EOE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[ICML 2024]**
+Envisioning Outlier Exposure by Large Language Models for Out-of-Distribution Detection.
+[[paper]](https://arxiv.org/pdf/2406.00806)
+[[code]](https://github.com/tmlr-group/EOE/)  
+Chentao Cao, Zhun Zhong, **Zhanke Zhou**, Yang Liu, Tongliang Liu, Bo Han✉️
+
+<details>
+<summary>Quick Introduction</summary>
+Detecting out-of-distribution (OOD) samples is essential when deploying machine learning models in open-world scenarios. Zero-shot OOD detection, requiring no training on in-distribution (ID) data, has been possible with the advent of vision-language models like CLIP. Existing methods build a text-based classifier with only closedset labels. However, this largely restricts the inherent capability of CLIP to recognize samples from large and open label space. <br><br>
+
+In this paper, we propose to tackle this constraint by leveraging the expert knowledge and reasoning capability of large language models (LLM) to Envision potential Outlier Exposure, termed EOE, without access to any actual OOD data. Owing to better adaptation to open-world scenarios, EOE can be generalized to different tasks, including far,
+near, and fine-grained OOD detection. <br><br>
+
+Technically, we design (1) LLM prompts based on visual similarity to generate potential outlier class labels specialized for OOD detection, as well as (2) a new score function based on potential outlier penalty to distinguish hard OOD samples effectively. Empirically, EOE achieves state-of-the-art performance across different OOD tasks and can be effectively scaled to the ImageNet-1K dataset
+</details>
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/DeepInception.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Arxiv 2024]**
+DeepInception: Hypnotize Large Language Model to Be Jailbreaker.  
+[[paper]](https://arxiv.org/pdf/2311.03191.pdf)
+[[code]](https://github.com/tmlr-group/DeepInception)
+[[website]](https://deepinception.github.io/)
+[[slides]](./_pages/data/slides-DeepInception.pdf)
+[[twitter]](https://twitter.com/Jianing9810/status/1721894260231098812)
+[[CN-video]](https://www.bilibili.com/video/BV16N4y1i7Rw/?t=2477)
+[[CN-blog]](https://mp.weixin.qq.com/s/PufSBheCrJsjzkC4LD20Nw)  
+Xuan Li\*, **Zhanke Zhou\***, Jianing Zhu\*, Jiangchao Yao, Tongliang Liu, Bo Han✉️
+
+<details>
+<summary>Quick Introduction</summary>
+Despite remarkable success in various applications, large language models (LLMs) are vulnerable to adversarial jailbreaks that make the safety guardrails void. However, previous studies for jailbreaks usually resort to brute-force optimization or extrapolations of a high computation cost, which might not be practical or effective. <br><br>
+
+In this paper, inspired by the Milgram experiment w.r.t. the authority power for inciting harmfulness, we disclose a lightweight method, termed as DeepInception, which can hypnotize an LLM to be a jailbreaker. Specifically, DeepInception leverages the personification ability of LLM to construct a virtual, nested scene to jailbreak, which realizes an adaptive way to escape the usage control in a normal scenario. <br><br>
+
+Empirically, DeepInception can achieve competitive jailbreak success rates with previous counterparts and realize a continuous jailbreak in subsequent interactions, which reveals the critical weakness of self-losing on both opensource and closed-source LLMs like Falcon, Vicuna-v1.5, Llama-2, GPT-3.5, and GPT-4.
 </details>
 </div>
 </div>
