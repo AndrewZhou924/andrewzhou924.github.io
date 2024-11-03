@@ -152,7 +152,8 @@ Such two objectives disclose a critical belief that to recover better in attack,
 
 
 Combating Bilateral Edge Noise for Robust Link Prediction.  
-**Zhanke Zhou**, Jiangchao Yao✉️, Jiaxu Liu, Xiawei Guo, Quanming Yao, Li He, Liang Wang, Bo Zheng, Bo Han✉️.  
+**Zhanke Zhou**, Jiangchao Yao✉️, Jiaxu Liu, Xiawei Guo, Quanming Yao,  
+Li He, Liang Wang, Bo Zheng, Bo Han✉️.  
 In NeurIPS 2023.
 [[paper]](https://arxiv.org/pdf/2311.01196.pdf)
 [[code]](https://github.com/tmlr-group/RGIB)
