@@ -6,8 +6,11 @@ main:
   # - title: "Educations"
   #   url: "/#-educations"
 
-  - title: "Publications"
-    url: "/#-selected-publications"
+  - title: "Language Model Reasoning"
+    url: "/#-publications-on-trustworthy-language-model-reasoning"
+
+  - title: "Graph Model Reasoning"
+    url: "/#-publications-on-trustworthy-graph-model-reasoning"
 
   - title: "Resources"
     url: "/#-resources"

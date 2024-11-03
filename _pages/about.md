@@ -35,8 +35,84 @@ and Information Engineering (SeedClass).
 <!-- # Research
 TODO: a short summary of my research -->
 
-# 📝 Selected Publications
+# 📝 Publications on Trustworthy Language Model Reasoning
 \* Co-first author, ✉️ Corresponding author.
+
+<!-- NeurIPS 2024 - NoRa -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/NoRa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?  
+**Zhanke Zhou**, Rong Tao, Jianing Zhu, Yiwen Luo, Zengmao Wang, Bo Han✉️.  
+In NeurIPS 2024.
+[[paper]](https://arxiv.org/pdf/2410.23856)
+[[code]](https://github.com/tmlr-group/NoisyRationales)  
+<!-- [[slides]](/_pages/data/slides-NoRa.pdf) -->
+<!-- [[poster]](/_pages/data/poster-NoRa.pdf) -->
+
+<details>
+<summary>Quick Introduction</summary>
+This paper investigates an under-explored challenge in large language models (LLMs): chain-of-thought prompting with noisy rationales, which include irrelevant or inaccurate reasoning thoughts within examples used for in-context learning. We construct NoRa dataset that is tailored to evaluate the robustness of reasoning in the presence of noisy rationales. Our findings on NoRa dataset reveal a prevalent vulnerability to such noise among current LLMs, with existing robust methods like self-correction and self-consistency showing limited efficacy. Notably, compared to prompting with clean rationales, base LLM drops by 1.4%-19.8% in accuracy with irrelevant thoughts and more drastically by 2.2%-40.4% with inaccurate thoughts.<br><br>
+
+Addressing this challenge necessitates external supervision that should be accessible in practice. Here, we propose the method of contrastive denoising with noisy chain-of-thought (CD-CoT). It enhances LLMs' denoising-reasoning capabilities by contrasting noisy rationales with only one clean rationale, which can be the minimal requirement for denoising-purpose prompting. This method follows a principle of exploration and exploitation: (1) rephrasing and selecting rationales in the input space to achieve explicit denoising and (2) exploring diverse reasoning paths and voting on answers in the output space. Empirically, CD-CoT demonstrates an average improvement of 17.8% in accuracy over the base model and shows significantly stronger denoising capabilities than baseline methods.
+</details>
+</div>
+</div>
+
+
+<!-- DeepInception -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/DeepInception.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+DeepInception: Hypnotize Large Language Model to Be Jailbreaker.  
+Xuan Li\*, **Zhanke Zhou\***, Jianing Zhu\*, Jiangchao Yao, Tongliang Liu, Bo Han✉️  
+In NeurIPS 2024 SafeGenAI Workshop.
+[[paper]](https://arxiv.org/pdf/2311.03191.pdf)
+[[code]](https://github.com/tmlr-group/DeepInception)
+[[website]](https://deepinception.github.io/)
+[[slides]](./_pages/data/slides-DeepInception.pdf)
+[[twitter]](https://twitter.com/Jianing9810/status/1721894260231098812)
+[[CN-video]](https://www.bilibili.com/video/BV16N4y1i7Rw/?t=2477)
+[[CN-blog]](https://mp.weixin.qq.com/s/PufSBheCrJsjzkC4LD20Nw)  
+
+<details>
+<summary>Quick Introduction</summary>
+Despite remarkable success in various applications, large language models (LLMs) are vulnerable to adversarial jailbreaks that make the safety guardrails void. However, previous studies for jailbreaks usually resort to brute-force optimization or extrapolations of a high computation cost, which might not be practical or effective. <br><br>
+
+In this paper, inspired by the Milgram experiment w.r.t. the authority power for inciting harmfulness, we disclose a lightweight method, termed as DeepInception, which can hypnotize an LLM to be a jailbreaker. Specifically, DeepInception leverages the personification ability of LLM to construct a virtual, nested scene to jailbreak, which realizes an adaptive way to escape the usage control in a normal scenario. <br><br>
+
+Empirically, DeepInception can achieve competitive jailbreak success rates with previous counterparts and realize a continuous jailbreak in subsequent interactions, which reveals the critical weakness of self-losing on both opensource and closed-source LLMs like Falcon, Vicuna-v1.5, Llama-2, GPT-3.5, and GPT-4.
+</details>
+</div>
+</div>
+
+<!-- ICML - EOE -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/EOE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Envisioning Outlier Exposure by Large Language Models for Out-of-Distribution Detection.  
+Chentao Cao, Zhun Zhong, **Zhanke Zhou**, Yang Liu, Tongliang Liu, Bo Han✉️  
+In ICML 2024.
+[[paper]](https://arxiv.org/pdf/2406.00806)
+[[code]](https://github.com/tmlr-group/EOE/)
+
+<details>
+<summary>Quick Introduction</summary>
+Detecting out-of-distribution (OOD) samples is essential when deploying machine learning models in open-world scenarios. Zero-shot OOD detection, requiring no training on in-distribution (ID) data, has been possible with the advent of vision-language models like CLIP. Existing methods build a text-based classifier with only closedset labels. However, this largely restricts the inherent capability of CLIP to recognize samples from large and open label space. <br><br>
+
+In this paper, we propose to tackle this constraint by leveraging the expert knowledge and reasoning capability of large language models (LLM) to Envision potential Outlier Exposure, termed EOE, without access to any actual OOD data. Owing to better adaptation to open-world scenarios, EOE can be generalized to different tasks, including far,
+near, and fine-grained OOD detection. <br><br>
+
+Technically, we design (1) LLM prompts based on visual similarity to generate potential outlier class labels specialized for OOD detection, as well as (2) a new score function based on potential outlier penalty to distinguish hard OOD samples effectively. Empirically, EOE achieves state-of-the-art performance across different OOD tasks and can be effectively scaled to the ImageNet-1K dataset
+</details>
+</div>
+</div>
+
+
+# 📝 Publications on Trustworthy Graph Model Reasoning
 
 <!-- ICML 2023 - MC-GRA -->
 <div class='paper-box'><div class='paper-box-image'><div>
@@ -44,8 +120,10 @@ TODO: a short summary of my research -->
 <img src='/_pages/data/figures/MCGRA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[ICML 2023]**
+
 On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation.  
+**Zhanke Zhou**, Chenyu Zhou, Xuan Li, Jiangchao Yao✉️, Quanming Yao, Bo Han✉️.  
+In ICML 2023.
 [[paper]](https://arxiv.org/pdf/2306.09104.pdf)
 [[code]](https://github.com/tmlr-group/MC-GRA)
 [[slides]](/_pages/data/slides-GRA.pdf)
@@ -53,7 +131,7 @@ On Strengthening and Defending Graph Reconstruction Attack with Markov Chain App
 [[EN-video]](https://slideslive.com/39003755/on-strengthening-and-defending-graph-reconstruction-attack-with-markov-chain-approximation?ref=search-presentations)
 [[CN-video]](https://www.bilibili.com/video/BV1ag4y1Q7ye/?t=7945)
 [[CN-blog]](https://mp.weixin.qq.com/s/hKSEMuNx6-g5SXfLjveDlw)  
-  **Zhanke Zhou**, Chenyu Zhou, Xuan Li, Jiangchao Yao✉️, Quanming Yao, Bo Han✉️.
+
 
 <details>
 <summary>Quick Introduction</summary>
@@ -72,8 +150,10 @@ Such two objectives disclose a critical belief that to recover better in attack,
 <img src='/_pages/data/figures/RGIB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[NeurIPS 2023]**
+
 Combating Bilateral Edge Noise for Robust Link Prediction.  
+**Zhanke Zhou**, Jiangchao Yao✉️, Jiaxu Liu, Xiawei Guo, Quanming Yao, Li He, Liang Wang, Bo Zheng, Bo Han✉️.  
+In NeurIPS 2023.
 [[paper]](https://arxiv.org/pdf/2311.01196.pdf)
 [[code]](https://github.com/tmlr-group/RGIB)
 [[slides]](/_pages/data/slides-RGIB.pdf)
@@ -81,7 +161,7 @@ Combating Bilateral Edge Noise for Robust Link Prediction.
 [[EN-video]](https://slideslive.com/39010502/combating-bilateral-edge-noise-for-robust-link-prediction?ref=search-presentations)
 [[CN-video]](https://www.bilibili.com/video/BV1cQ4y1x76L/?t=4490)
 [[CN-blog]](https://mp.weixin.qq.com/s/0GypXaICRLrJFywLpdW8bA)  
-  **Zhanke Zhou**, Jiangchao Yao✉️, Jiaxu Liu, Xiawei Guo, Quanming Yao, Li He, Liang Wang, Bo Zheng, Bo Han✉️.
+
 
 <details>
 <summary>Quick Introduction</summary>
@@ -101,14 +181,15 @@ Two instantiations, RGIB-SSL and RGIB-REP, are explored to leverage the merits o
 <img src='/_pages/data/figures/one-shot-subgraph.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[ICLR 2024]**
+
 Less is More: One-shot Subgraph Reasoning on Large-scale Knowledge Graphs.  
+**Zhanke Zhou**, Yongqi Zhang, Jiangchao Yao, Quanming Yao, Bo Han✉️.  
+In ICLR 2024.
 [[paper]](https://arxiv.org/pdf/2403.10231.pdf)
 [[code]](https://github.com/tmlr-group/one-shot-subgraph)
 [[slides]](/_pages/data/slides-one-shot-subgraph.pdf)
 [[poster]](/_pages/data/poster-one-shot-subgraph.pdf)
 [[EN-video]](https://recorder-v3.slideslive.com/?share=92165&s=396ea382-bc2a-451b-8ee0-111e94581a7b)  
-**Zhanke Zhou**, Yongqi Zhang, Jiangchao Yao, Quanming Yao, Bo Han✉️.
 
 <details>
 <summary>Quick Introduction</summary>
@@ -128,15 +209,17 @@ We reveal that  the non-parametric and computation-efficient heuristics Personal
 <img src='/_pages/data/figures/neural-atoms.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[ICLR 2024]**
-Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel.  
+
+Neural Atoms: Propagating Long-range Interaction in Molecular Graphs   
+through Efficient Communication Channel.  
+Xuan Li\*, **Zhanke Zhou\***, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️.  
+In ICLR 2024.
 [[paper]](https://arxiv.org/pdf/2311.01276.pdf)
 [[code]](https://github.com/tmlr-group/NeuralAtom)
 [[slides]](/_pages/data/slides-neural-atoms.pdf)
 [[poster]](/_pages/data/poster-neural-atoms.pdf)
 [[EN-video]](https://recorder-v3.slideslive.com/?share=92308&s=8e966150-4ba4-41b7-97d3-8ed0c1a1cd0c)
 [[CN-video]](https://www.bilibili.com/video/BV1qH4y1L7mb/?share_source=copy_web&vd_source=65ec14228a98f635bf0406f14c7f8660&t=5342)  
-  Xuan Li\*, **Zhanke Zhou\***, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️.
 
 <details>
 <summary>Quick Introduction</summary>
@@ -156,16 +239,15 @@ To provide an inspection of our method from a physical perspective, we reveal it
 <img src='/_pages/data/figures/AdaProp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[KDD 2023]**
 Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge Graph Reasoning.  
+Yongqi Zhang\*, **Zhanke Zhou\***, Quanming Yao✉️, Xiaowen Chu, Bo Han.  
+In KDD 2023.
 [[paper]](https://arxiv.org/pdf/2205.15319.pdf)
 [[code]](https://github.com/LARS-research/AdaProp)
 [[slides]](/_pages/data/slides-AdaProp.pdf)
 [[poster]](/_pages/data/poster-AdaProp.pdf)
 [[EN-video]](https://www.youtube.com/watch?v=4YggNGOcTOk)
 [[CN-video]](https://www.bilibili.com/video/BV1EP411p7fP/?t=2078)  
-Yongqi Zhang\*, **Zhanke Zhou\***, Quanming Yao✉️, Xiaowen Chu, Bo Han.
-
 
 <details>
 <summary>Quick Introduction</summary>
@@ -177,59 +259,8 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 </div>
 
 
-
-<!-- ICML - EOE -->
-<div class='paper-box'><div class='paper-box-image'><div>
-<img src='/_pages/data/figures/EOE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[ICML 2024]**
-Envisioning Outlier Exposure by Large Language Models for Out-of-Distribution Detection.
-[[paper]](https://arxiv.org/pdf/2406.00806)
-[[code]](https://github.com/tmlr-group/EOE/)  
-Chentao Cao, Zhun Zhong, **Zhanke Zhou**, Yang Liu, Tongliang Liu, Bo Han✉️
-
-<details>
-<summary>Quick Introduction</summary>
-Detecting out-of-distribution (OOD) samples is essential when deploying machine learning models in open-world scenarios. Zero-shot OOD detection, requiring no training on in-distribution (ID) data, has been possible with the advent of vision-language models like CLIP. Existing methods build a text-based classifier with only closedset labels. However, this largely restricts the inherent capability of CLIP to recognize samples from large and open label space. <br><br>
-
-In this paper, we propose to tackle this constraint by leveraging the expert knowledge and reasoning capability of large language models (LLM) to Envision potential Outlier Exposure, termed EOE, without access to any actual OOD data. Owing to better adaptation to open-world scenarios, EOE can be generalized to different tasks, including far,
-near, and fine-grained OOD detection. <br><br>
-
-Technically, we design (1) LLM prompts based on visual similarity to generate potential outlier class labels specialized for OOD detection, as well as (2) a new score function based on potential outlier penalty to distinguish hard OOD samples effectively. Empirically, EOE achieves state-of-the-art performance across different OOD tasks and can be effectively scaled to the ImageNet-1K dataset
-</details>
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div>
-<img src='/_pages/data/figures/DeepInception.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[Arxiv 2024]**
-DeepInception: Hypnotize Large Language Model to Be Jailbreaker.  
-[[paper]](https://arxiv.org/pdf/2311.03191.pdf)
-[[code]](https://github.com/tmlr-group/DeepInception)
-[[website]](https://deepinception.github.io/)
-[[slides]](./_pages/data/slides-DeepInception.pdf)
-[[twitter]](https://twitter.com/Jianing9810/status/1721894260231098812)
-[[CN-video]](https://www.bilibili.com/video/BV16N4y1i7Rw/?t=2477)
-[[CN-blog]](https://mp.weixin.qq.com/s/PufSBheCrJsjzkC4LD20Nw)  
-Xuan Li\*, **Zhanke Zhou\***, Jianing Zhu\*, Jiangchao Yao, Tongliang Liu, Bo Han✉️
-
-<details>
-<summary>Quick Introduction</summary>
-Despite remarkable success in various applications, large language models (LLMs) are vulnerable to adversarial jailbreaks that make the safety guardrails void. However, previous studies for jailbreaks usually resort to brute-force optimization or extrapolations of a high computation cost, which might not be practical or effective. <br><br>
-
-In this paper, inspired by the Milgram experiment w.r.t. the authority power for inciting harmfulness, we disclose a lightweight method, termed as DeepInception, which can hypnotize an LLM to be a jailbreaker. Specifically, DeepInception leverages the personification ability of LLM to construct a virtual, nested scene to jailbreak, which realizes an adaptive way to escape the usage control in a normal scenario. <br><br>
-
-Empirically, DeepInception can achieve competitive jailbreak success rates with previous counterparts and realize a continuous jailbreak in subsequent interactions, which reveals the critical weakness of self-losing on both opensource and closed-source LLMs like Falcon, Vicuna-v1.5, Llama-2, GPT-3.5, and GPT-4.
-</details>
-</div>
-</div>
-
-
 # 🎖 Awards
+- *2024.10*, Excellent Research Gold Award of TMLR Group.
 - *2024.06*, Best Poster Award by COMP of HKBU.
 - *2024.05*, Best Research Performance Award by COMP of HKBU.
 - *2023.11*, Research Excellence Award by COMP of HKBU.
@@ -244,7 +275,7 @@ Empirically, DeepInception can achieve competitive jailbreak success rates with 
 
 # 💻 Services
 - Conference Reviewer for ICML, NeurIPS, ICLR, AISTATS, ACML, AAAI, IJCAI, COLM, CIKM, SIGKDD.
-- Journal Reviewer for TMLR, NEUNET, TNNLS.
+- Journal Reviewer for TMLR, NEUNET, TNNLS, TKDE.
 
 # 🏫 Teaching
 - Teaching Assistant for COMP7250: Machine Learning.
