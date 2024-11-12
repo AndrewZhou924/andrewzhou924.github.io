@@ -47,8 +47,8 @@ Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with 
 **Zhanke Zhou**, Rong Tao, Jianing Zhu, Yiwen Luo, Zengmao Wang, Bo Han✉️.  
 In NeurIPS 2024.
 [[paper]](https://arxiv.org/pdf/2410.23856)
-[[code]](https://github.com/tmlr-group/NoisyRationales)  
-<!-- [[slides]](/_pages/data/slides-NoRa.pdf) -->
+[[code]](https://github.com/tmlr-group/NoisyRationales)
+[[slides]](/_pages/data/slides-NoRa.pdf)
 <!-- [[poster]](/_pages/data/poster-NoRa.pdf) -->
 
 <details>
@@ -98,6 +98,10 @@ Chentao Cao, Zhun Zhong, **Zhanke Zhou**, Yang Liu, Tongliang Liu, Bo Han✉️
 In ICML 2024.
 [[paper]](https://arxiv.org/pdf/2406.00806)
 [[code]](https://github.com/tmlr-group/EOE/)
+[[slides]](./_pages/data/slides-EOE.pdf)
+[[poster]](/_pages/data/poster-EOE.pdf)
+[[CN-video]](https://www.bilibili.com/video/BV1k4421X7zK?t=1272.0)
+[[CN-blog]](https://www.jiqizhixin.com/articles/2024-07-01-16)
 
 <details>
 <summary>Quick Introduction</summary>
@@ -190,7 +194,7 @@ In ICLR 2024.
 [[code]](https://github.com/tmlr-group/one-shot-subgraph)
 [[slides]](/_pages/data/slides-one-shot-subgraph.pdf)
 [[poster]](/_pages/data/poster-one-shot-subgraph.pdf)
-[[EN-video]](https://recorder-v3.slideslive.com/?share=92165&s=396ea382-bc2a-451b-8ee0-111e94581a7b)  
+[[EN-video]](https://iclr.cc/virtual/2024/poster/18681)
 
 <details>
 <summary>Quick Introduction</summary>
@@ -219,7 +223,7 @@ In ICLR 2024.
 [[code]](https://github.com/tmlr-group/NeuralAtom)
 [[slides]](/_pages/data/slides-neural-atoms.pdf)
 [[poster]](/_pages/data/poster-neural-atoms.pdf)
-[[EN-video]](https://recorder-v3.slideslive.com/?share=92308&s=8e966150-4ba4-41b7-97d3-8ed0c1a1cd0c)
+[[EN-video]](https://iclr.cc/virtual/2024/poster/19172)
 [[CN-video]](https://www.bilibili.com/video/BV1qH4y1L7mb/?share_source=copy_web&vd_source=65ec14228a98f635bf0406f14c7f8660&t=5342)  
 
 <details>
