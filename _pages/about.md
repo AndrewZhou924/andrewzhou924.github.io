@@ -278,6 +278,8 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 - *2021.06*, Outstanding Graduate Award of HUST.
 
 # 💬 Talks
+- *2024.11*, Seminar on Trustworthy Machine Learning and Foundation Models @AI Time, Online.
+[[Video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?t=4700)
 - *2023.11*, Seminar on Trustworthy Machine Learning with Imperfect Data @TechBeat, Online.
 [[Video]](https://www.bilibili.com/video/BV1cQ4y1x76L/?t=4490)
 - *2023.11*, Youth PhD Talk on Trustworthy Machine Learning @AI Time, Online.
@@ -295,7 +297,7 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 # 📖 Experiences
 - *2022.09 - present*, PhD student @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han.
 - *2022.02 - 2022.09*, Research assistant @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han and Dr. Jiangchao Yao.
-- *2021.01 - 2022.02*, Research intern @THU-[LARS Group](https://lars-group.github.io/pages/group.html), advised by Dr. Quanming Yao and Dr. Yongqi Zhang.
+- *2021.01 - 2024.05*, Visiting student @THU-[LARS Group](https://lars-group.github.io/pages/group.html), advised by Dr. Quanming Yao and Dr. Yongqi Zhang.
 - *2020.06 - 2020.09*, Research intern @SJTU-[MVIG Group](https://mvig.org/), advised by Dr. Cewu Lu and Dr. Yonglu Li.
 - *2018.03 - 2021.01*, Core Member @HUST-[Dian Group](https://dian.org.cn/), advised by Dr. Yayu Gao, Dr. Chengwei Zhang, and Dr. Xiaojun Hei.
 
