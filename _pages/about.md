@@ -75,7 +75,7 @@ Xuan Li\*, **Zhanke Zhou\***, Jianing Zhu\*, Jiangchao Yao, Tongliang Liu, Bo Ha
 In NeurIPS 2024 SafeGenAI Workshop.
 [[paper]](https://arxiv.org/pdf/2311.03191.pdf)
 [[code]](https://github.com/tmlr-group/DeepInception)
-[[website]](https://deepinception.github.io/)
+<!-- [[website]](https://deepinception.github.io/) -->
 [[slides]](./_pages/data/slides-DeepInception.pdf)
 [[twitter]](https://twitter.com/Jianing9810/status/1721894260231098812)
 [[CN-video]](https://www.bilibili.com/video/BV16N4y1i7Rw/?t=2477)
