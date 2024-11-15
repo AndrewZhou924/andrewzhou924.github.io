@@ -49,7 +49,7 @@ In NeurIPS 2024.
 [[paper]](https://arxiv.org/pdf/2410.23856)
 [[code]](https://github.com/tmlr-group/NoisyRationales)
 [[slides]](/_pages/data/slides-NoRa.pdf)
-<!-- [[poster]](/_pages/data/poster-NoRa.pdf) -->
+[[poster]](/_pages/data/poster-NoRa.pdf)
 [[EN-video]](https://recorder-v3.slideslive.com/#/share?share=95130&s=5b5533e4-0c3e-45a1-83a7-87a2fd7b4f54)
 <!-- [[EN-blog]]() -->
 [[CN-video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?t=4700)
