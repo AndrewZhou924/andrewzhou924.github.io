@@ -18,14 +18,10 @@ redirect_from:
 
 Hi there, I am Zhanke Zhou (Andrew), a Ph.D. student at Trustworthy Machine Learning and Reasoning (TMLR) Group of Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/) and working with [Prof. Jiangchao Yao](https://sunarker.github.io/).
 
-Recently, I am a visiting student at STAIR group of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).
+Currently, I am a visiting student at STAIR group of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).  
+Prior to that, I was a visiting student at LARS group of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
 
-Previously, I was a visiting student at LARS group of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
-
-My research interests lie in **trustworthy machine reasoning** with structural data and foundation models for solving **complex problems** (e.g., combinatorial optimization and planning) and boosting **scientific discoveries** (e.g., math, biology, and chemistry).
-
-<!-- *TODO: research belief and position.* -->
-
+My research interests lie in **trustworthy machine reasoning** with structural data and foundation models for solving **complex problems** (e.g., combinatorial optimization and planning) and boosting **scientific discoveries** (e.g., math, biology, and chemistry).  
 I am always open for possible collaborations.
 *Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) for research, collaborations, or a casual chat.* 
 
