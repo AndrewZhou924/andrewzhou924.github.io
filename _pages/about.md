@@ -16,12 +16,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there, I am Zhanke Zhou, a Ph.D. student at Trustworthy Machine Learning and Reasoning (TMLR) Group in the Department of Computer Science, Hong Kong Baptist University, advised by [Dr. Bo Han](https://bhanml.github.io/).
+Hi there, I am Zhanke Zhou (Andrew), a Ph.D. student at Trustworthy Machine Learning and Reasoning (TMLR) Group of Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/) and working with [Prof. Jiangchao Yao](https://sunarker.github.io/).
+
+Recently, I am a visiting student at STAIR group of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).
+
+Previously, I was a visiting student at LARS group of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
 
 My research interests lie in **trustworthy machine reasoning** with structural data and foundation models for solving **complex problems** (e.g., combinatorial optimization and planning) and boosting **scientific discoveries** (e.g., math, biology, and chemistry).
 
 <!-- *TODO: research belief and position.* -->
 
+I am always open for possible collaborations.
 *Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) for research, collaborations, or a casual chat.* 
 
 <!-- *Please consider giving me [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSeE4_y14QlUtJ8MhltnGnWwco7J1sWprXnlGoFWFo002k26lw/viewform?usp=sf_link).* -->
@@ -51,9 +56,9 @@ In NeurIPS 2024.
 [[slides]](/_pages/data/slides-NoRa.pdf)
 [[poster]](/_pages/data/poster-NoRa.pdf)
 [[EN-video]](https://recorder-v3.slideslive.com/#/share?share=95130&s=5b5533e4-0c3e-45a1-83a7-87a2fd7b4f54)
-<!-- [[EN-blog]]() -->
 [[CN-video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?t=4700)
-<!-- [[CN-blog]]() -->
+[[CN-blog]](https://mp.weixin.qq.com/s/7igsb3yOW5UYd_Ox47Q0wA)
+[[twitter]](https://x.com/tmlrgroup/status/1877546137395278231)
 
 <details>
 <summary>Quick Introduction</summary>
@@ -270,6 +275,7 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 
 
 # 🎖 Awards
+- *2024.11*, Research Performance Award  by COMP of HKBU.
 - *2024.10*, Excellent Research Gold Award of TMLR Group.
 - *2024.06*, Best Poster Award by COMP of HKBU.
 - *2024.05*, Best Research Performance Award by COMP of HKBU.
@@ -296,6 +302,7 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 
 # 📖 Experiences
 - *2022.09 - present*, PhD student @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han.
+- *2025.01 - present*, Visiting student @Stanford-[STAIR Group](https://cs.stanford.edu/~sanmi/), advised with Prof. Sanmi Koyejo.
 - *2022.02 - 2022.09*, Research assistant @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han and Dr. Jiangchao Yao.
 - *2021.01 - 2024.05*, Visiting student @THU-[LARS Group](https://lars-group.github.io/pages/group.html), advised by Dr. Quanming Yao and Dr. Yongqi Zhang.
 - *2020.06 - 2020.09*, Research intern @SJTU-[MVIG Group](https://mvig.org/), advised by Dr. Cewu Lu and Dr. Yonglu Li.
