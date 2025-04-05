@@ -323,12 +323,12 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 - Teaching Assistant for COMP7070: Advanced Topics in Artificial Intelligence and Machine Learning.
 
 # 📖 Experiences
-- *2022.09 - present*, PhD student @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han.
+- *2022.09 - present*, PhD student @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Prof. Bo Han.
 - *2025.01 - present*, Visiting student @Stanford-[STAIR Lab](https://cs.stanford.edu/~sanmi/), advised with Prof. Sanmi Koyejo.
-- *2022.02 - 2022.09*, Research assistant @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han and Dr. Jiangchao Yao.
-- *2021.01 - 2024.05*, Visiting student @THU-[LARS Group](https://lars-group.github.io/pages/group.html), advised by Dr. Quanming Yao and Dr. Yongqi Zhang.
-- *2020.06 - 2020.09*, Research intern @SJTU-[MVIG Group](https://mvig.org/), advised by Dr. Cewu Lu and Dr. Yonglu Li.
-- *2018.03 - 2021.01*, Core Member @HUST-[Dian Group](https://dian.org.cn/), advised by Dr. Yayu Gao, Dr. Chengwei Zhang, and Dr. Xiaojun Hei.
+- *2022.02 - 2022.09*, Research assistant @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Prof. Bo Han and Prof. Jiangchao Yao.
+- *2021.01 - 2024.05*, Visiting student @THU-[LARS Group](https://lars-group.github.io/pages/group.html), advised by Prof. Quanming Yao and Prof. Yongqi Zhang.
+- *2020.06 - 2020.09*, Research intern @SJTU-[MVIG Group](https://mvig.org/), advised by Prof. Cewu Lu and Prof. Yonglu Li.
+- *2018.03 - 2021.01*, Core Member @HUST-[Dian Group](https://dian.org.cn/), advised by Prof. Yayu Gao, Prof. Chengwei Zhang, and Prof. Xiaojun Hei.
 
 # 💻 Resources
 
