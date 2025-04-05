@@ -16,14 +16,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there, I am Zhanke Zhou (Andrew), a Ph.D. student at Trustworthy Machine Learning and Reasoning (TMLR) Group of Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/) and working with [Prof. Jiangchao Yao](https://sunarker.github.io/).
+Hi there, I am (Andrew) Zhanke Zhou, a Ph.D. student at [TMLR Group](https://bhanml.github.io/group.html) of Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/) and working with [Prof. Jiangchao Yao](https://sunarker.github.io/).
+Currently, I am a visiting student at [STAIR lab](https://stair.cs.stanford.edu/team/) of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).
+Prior to that, I was a visiting student at [LARS group](https://lars-group.github.io/pages/group.html) of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
 
-Currently, I am a visiting student at STAIR group of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).  
-Prior to that, I was a visiting student at LARS group of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
+My research focuses on **trustworthy machine reasoning with foundation models (LLMs, VLMs)** to solve **complex problems** such as mathematics and coding, as well as to accelerate scientific discovery and application in fields like biology, chemistry, and healthcare. I believe that **reasoning** is the essential pathway to achieving AGI. Trustworthy machine reasoning encompasses properties such as reasoning power, robustness, safety, and explainability. My work involves developing methodologies, benchmarks, and theoretical foundations to advance these areas.
 
-My research interests lie in **trustworthy machine reasoning** with structural data and foundation models for solving **complex problems** (e.g., combinatorial optimization and planning) and boosting **scientific discoveries** (e.g., math, biology, and chemistry).  
-I am always open for possible collaborations.
-*Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) for research, collaborations, or a casual chat.* 
+I am always open for possible collaborations. *Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) for research, collaborations, or a casual chat.* 
 
 <!-- *Please consider giving me [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSeE4_y14QlUtJ8MhltnGnWwco7J1sWprXnlGoFWFo002k26lw/viewform?usp=sf_link).* -->
 
@@ -38,6 +37,32 @@ TODO: a short summary of my research -->
 
 # 📝 Publications on Trustworthy Language Model Reasoning
 \* Co-first author, ✉️ Corresponding author.
+
+<!-- Landscape of thoughts -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/Landscape.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models.  
+**Zhanke Zhou\***, Zhaocheng Zhu\*, Xuan Li\*, Mikhail Galkin, Xiao Feng, Sanmi Koyejo, Jian Tang, Bo Han✉️  
+In ICLR 2025 Workshop on Reasoning and Planning for Large Language Models.
+[[paper]](https://arxiv.org/pdf/2503.22165)
+[[code]](https://github.com/tmlr-group/landscape-of-thoughts)
+<!-- [[slides]]() -->
+<!-- [[poster]]() -->
+<!-- [[EN-video]]() -->
+<!-- [[CN-video]]() -->
+<!-- [[CN-blog]]() -->
+<!-- [[twitter]]() -->
+
+<details>
+<summary>Quick Introduction</summary>
+Numerous applications of large language models (LLMs) rely on their ability to perform step-by-step reasoning. However, the reasoning behavior of LLMs remains poorly understood, posing challenges to research, development, and safety. To address this gap, we introduce landscape of thoughts-the first visualization tool for users to inspect the reasoning paths of chain-of-thought and its derivatives on any multi-choice dataset.<br><br>
+
+Specifically, we represent the states in a reasoning path as feature vectors that quantify their distances to all answer choices. These features are then visualized in two-dimensional plots using t-SNE. Qualitative and quantitative analysis with the landscape of thoughts effectively distinguishes between strong and weak models, correct and incorrect answers, as well as different reasoning tasks. It also uncovers undesirable reasoning patterns, such as low consistency and high uncertainty. Additionally, users can adapt our tool to a model that predicts the property they observe. We showcase this advantage by adapting our tool to a lightweight verifier that evaluates the correctness of reasoning paths
+</details>
+</div>
+</div>
 
 <!-- NeurIPS 2024 - NoRa -->
 <div class='paper-box'><div class='paper-box-image'><div>
@@ -271,7 +296,8 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 
 
 # 🎖 Awards
-- *2024.11*, Research Performance Award  by COMP of HKBU.
+- *2025.03*, Madam Hui Tang Shing Yan Fellowship (only two awardees in HKBU).
+- *2024.11*, Research Performance Award by COMP of HKBU.
 - *2024.10*, Excellent Research Gold Award of TMLR Group.
 - *2024.06*, Best Poster Award by COMP of HKBU.
 - *2024.05*, Best Research Performance Award by COMP of HKBU.
@@ -288,8 +314,8 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 [[Video]](https://www.bilibili.com/video/BV1ag4y1Q7ye/?t=7945)
 
 # 💻 Services
-- Conference Reviewer for ICML, NeurIPS, ICLR, AISTATS, ACML, AAAI, IJCAI, COLM, CIKM, SIGKDD.
-- Journal Reviewer for TMLR, NEUNET, TNNLS, TKDE.
+- Conference Reviewer for ICML, NeurIPS, ICLR, AISTATS, ACML, AAAI, IJCAI, COLM, ARR, CIKM, SIGKDD.
+- Journal Reviewer for TPAMI, TMLR, NEUNET, TNNLS, TKDE.
 
 # 🏫 Teaching
 - Teaching Assistant for COMP7250: Machine Learning.
@@ -298,7 +324,7 @@ In this work, we are motivated to learn an adaptive propagation path in order to
 
 # 📖 Experiences
 - *2022.09 - present*, PhD student @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han.
-- *2025.01 - present*, Visiting student @Stanford-[STAIR Group](https://cs.stanford.edu/~sanmi/), advised with Prof. Sanmi Koyejo.
+- *2025.01 - present*, Visiting student @Stanford-[STAIR Lab](https://cs.stanford.edu/~sanmi/), advised with Prof. Sanmi Koyejo.
 - *2022.02 - 2022.09*, Research assistant @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han and Dr. Jiangchao Yao.
 - *2021.01 - 2024.05*, Visiting student @THU-[LARS Group](https://lars-group.github.io/pages/group.html), advised by Dr. Quanming Yao and Dr. Yongqi Zhang.
 - *2020.06 - 2020.09*, Research intern @SJTU-[MVIG Group](https://mvig.org/), advised by Dr. Cewu Lu and Dr. Yonglu Li.
