@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there, I am (Andrew) Zhanke Zhou, a Ph.D. student at [TMLR Group](https://bhanml.github.io/group.html) of Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/) and working with [Prof. Jiangchao Yao](https://sunarker.github.io/).
+Hi there, I am (Andrew) Zhanke Zhou, a Ph.D. student at [TMLR group](https://bhanml.github.io/group.html) of Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/) and working with [Prof. Jiangchao Yao](https://sunarker.github.io/).
 Currently, I am a visiting student at [STAIR lab](https://stair.cs.stanford.edu/team/) of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).
 Prior to that, I was a visiting student at [LARS group](https://lars-group.github.io/pages/group.html) of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
 
