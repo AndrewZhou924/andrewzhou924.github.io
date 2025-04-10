@@ -35,12 +35,13 @@ and Information Engineering (SeedClass).
 <!-- # Research
 TODO: a short summary of my research -->
 
-# 📝 Publications on Trustworthy Language Model Reasoning
+# 📝 Selected Publications on Trustworthy Language-model Reasoning
 \* Co-first author, ✉️ Corresponding author.
 
 <!-- Landscape of thoughts -->
 <div class='paper-box'><div class='paper-box-image'><div>
 <img src='/_pages/data/figures/Landscape.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/poster-landscape.png' alt="sym" width="100%"></div></div> -->
 <div class='paper-box-text' markdown="1">
 
 Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models.  
@@ -54,19 +55,22 @@ In ICLR 2025 Workshop on Reasoning and Planning for Large Language Models.
 <!-- [[CN-video]]() -->
 <!-- [[CN-blog]]() -->
 <!-- [[twitter]]() -->
+</div>
+</div>
 
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 Numerous applications of large language models (LLMs) rely on their ability to perform step-by-step reasoning. However, the reasoning behavior of LLMs remains poorly understood, posing challenges to research, development, and safety. To address this gap, we introduce landscape of thoughts-the first visualization tool for users to inspect the reasoning paths of chain-of-thought and its derivatives on any multi-choice dataset.<br><br>
 
 Specifically, we represent the states in a reasoning path as feature vectors that quantify their distances to all answer choices. These features are then visualized in two-dimensional plots using t-SNE. Qualitative and quantitative analysis with the landscape of thoughts effectively distinguishes between strong and weak models, correct and incorrect answers, as well as different reasoning tasks. It also uncovers undesirable reasoning patterns, such as low consistency and high uncertainty. Additionally, users can adapt our tool to a model that predicts the property they observe. We showcase this advantage by adapting our tool to a lightweight verifier that evaluates the correctness of reasoning paths
 </details>
 </div>
-</div>
+</div> -->
 
 <!-- NeurIPS 2024 - NoRa -->
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/_pages/data/figures/NoRa.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/figures/NoRa.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-NoRa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?  
@@ -80,19 +84,22 @@ In NeurIPS 2024.
 [[CN-video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?t=4700)
 [[CN-blog]](https://mp.weixin.qq.com/s/7igsb3yOW5UYd_Ox47Q0wA)
 [[twitter]](https://x.com/tmlrgroup/status/1877546137395278231)
+</div>
+</div>
 
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 This paper investigates an under-explored challenge in large language models (LLMs): chain-of-thought prompting with noisy rationales, which include irrelevant or inaccurate reasoning thoughts within examples used for in-context learning. We construct NoRa dataset that is tailored to evaluate the robustness of reasoning in the presence of noisy rationales. Our findings on NoRa dataset reveal a prevalent vulnerability to such noise among current LLMs, with existing robust methods like self-correction and self-consistency showing limited efficacy. Notably, compared to prompting with clean rationales, base LLM drops by 1.4%-19.8% in accuracy with irrelevant thoughts and more drastically by 2.2%-40.4% with inaccurate thoughts.<br><br>
 
 Addressing this challenge necessitates external supervision that should be accessible in practice. Here, we propose the method of contrastive denoising with noisy chain-of-thought (CD-CoT). It enhances LLMs' denoising-reasoning capabilities by contrasting noisy rationales with only one clean rationale, which can be the minimal requirement for denoising-purpose prompting. This method follows a principle of exploration and exploitation: (1) rephrasing and selecting rationales in the input space to achieve explicit denoising and (2) exploring diverse reasoning paths and voting on answers in the output space. Empirically, CD-CoT demonstrates an average improvement of 17.8% in accuracy over the base model and shows significantly stronger denoising capabilities than baseline methods.
 </details>
 </div>
-</div>
+</div> -->
 
 
 <!-- DeepInception -->
 <div class='paper-box'><div class='paper-box-image'><div>
+<!-- <img src='/_pages/data/figures/DeepInception.png' alt="sym" width="100%"></div></div> -->
 <img src='/_pages/data/figures/DeepInception.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -107,8 +114,10 @@ In NeurIPS 2024 SafeGenAI Workshop.
 [[CN-video]](https://www.bilibili.com/video/BV16N4y1i7Rw/?t=2477)
 [[CN-blog]](https://mp.weixin.qq.com/s/PufSBheCrJsjzkC4LD20Nw)
 [[DeepTech]](https://mp.weixin.qq.com/s/kN_tmAADSHLHEbgNB7Z3Ng)
+</div>
+</div>
 
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 Despite remarkable success in various applications, large language models (LLMs) are vulnerable to adversarial jailbreaks that make the safety guardrails void. However, previous studies for jailbreaks usually resort to brute-force optimization or extrapolations of a high computation cost, which might not be practical or effective. <br><br>
 
@@ -117,11 +126,12 @@ In this paper, inspired by the Milgram experiment w.r.t. the authority power for
 Empirically, DeepInception can achieve competitive jailbreak success rates with previous counterparts and realize a continuous jailbreak in subsequent interactions, which reveals the critical weakness of self-losing on both opensource and closed-source LLMs like Falcon, Vicuna-v1.5, Llama-2, GPT-3.5, and GPT-4.
 </details>
 </div>
-</div>
+</div> -->
 
 <!-- ICML - EOE -->
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/_pages/data/figures/EOE.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/figures/EOE.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-EOE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Envisioning Outlier Exposure by Large Language Models for Out-of-Distribution Detection.  
@@ -133,8 +143,10 @@ In ICML 2024.
 [[poster]](/_pages/data/poster-EOE.pdf)
 [[CN-video]](https://www.bilibili.com/video/BV1k4421X7zK?t=1272.0)
 [[CN-blog]](https://www.jiqizhixin.com/articles/2024-07-01-16)
+</div>
+</div>
 
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 Detecting out-of-distribution (OOD) samples is essential when deploying machine learning models in open-world scenarios. Zero-shot OOD detection, requiring no training on in-distribution (ID) data, has been possible with the advent of vision-language models like CLIP. Existing methods build a text-based classifier with only closedset labels. However, this largely restricts the inherent capability of CLIP to recognize samples from large and open label space. <br><br>
 
@@ -144,15 +156,16 @@ near, and fine-grained OOD detection. <br><br>
 Technically, we design (1) LLM prompts based on visual similarity to generate potential outlier class labels specialized for OOD detection, as well as (2) a new score function based on potential outlier penalty to distinguish hard OOD samples effectively. Empirically, EOE achieves state-of-the-art performance across different OOD tasks and can be effectively scaled to the ImageNet-1K dataset
 </details>
 </div>
-</div>
+</div> -->
 
 
-# 📝 Publications on Trustworthy Graph Model Reasoning
+# 📝 Selected Publications on Trustworthy Graph-model Reasoning
 
 <!-- ICML 2023 - MC-GRA -->
 <div class='paper-box'><div class='paper-box-image'><div>
 <!-- <div class="badge">ICML 2023</div> -->
-<img src='/_pages/data/figures/MCGRA.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/figures/MCGRA.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-GRA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -166,9 +179,10 @@ In ICML 2023.
 [[EN-video]](https://slideslive.com/39003755/on-strengthening-and-defending-graph-reconstruction-attack-with-markov-chain-approximation?ref=search-presentations)
 [[CN-video]](https://www.bilibili.com/video/BV1ag4y1Q7ye/?t=7945)
 [[CN-blog]](https://mp.weixin.qq.com/s/hKSEMuNx6-g5SXfLjveDlw)  
+</div>
+</div>
 
-
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 Although powerful graph neural networks (GNNs) have boosted numerous real-world applications, the potential privacy risk is still under-explored. To close this gap, we perform the first comprehensive study of graph reconstruction attack that aims to reconstruct the adjacency of nodes.<br><br>
 
@@ -177,12 +191,13 @@ We show that a range of factors in GNNs can lead to the surprising leakage of pr
 Such two objectives disclose a critical belief that to recover better in attack, you must extract more multi-aspect knowledge from the trained GNN; while to learn safer for defense, you must forget more link-sensitive information in training GNNs. Empirically, we achieve state-of-the-art results on six datasets and three common GNNs.
 </details>
 </div>
-</div>
+</div> -->
 
 <!-- NeurIPS 2023 - RGIB -->
 <div class='paper-box'><div class='paper-box-image'><div>
 <!-- <div class="badge">NeurIPS 2023</div> -->
-<img src='/_pages/data/figures/RGIB.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/figures/RGIB.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-RGIB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -197,9 +212,10 @@ In NeurIPS 2023.
 [[EN-video]](https://slideslive.com/39010502/combating-bilateral-edge-noise-for-robust-link-prediction?ref=search-presentations)
 [[CN-video]](https://www.bilibili.com/video/BV1cQ4y1x76L/?t=4490)
 [[CN-blog]](https://mp.weixin.qq.com/s/0GypXaICRLrJFywLpdW8bA)  
+</div>
+</div>
 
-
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 Although link prediction on graphs has achieved great success with the development of graph neural networks (GNNs), the potential robustness under the edge noise is still less investigated.  To close this gap, we first conduct an empirical study to disclose that the edge noise bilaterally perturbs both input topology and target label, yielding severe performance degradation and representation collapse.<br><br> 
 
@@ -208,13 +224,14 @@ To address this dilemma, we propose an information-theory-guided principle, Robu
 Two instantiations, RGIB-SSL and RGIB-REP, are explored to leverage the merits of different methodologies, i.e., self-supervised learning and data reparameterization, for implicit and explicit data denoising, respectively. Extensive experiments on six datasets and three GNNs with diverse noisy scenarios verify the effectiveness of our RGIB instantiations.
 </details>
 </div>
-</div>
+</div> -->
 
 
 <!-- ICLR 2024 - One-shot-subgraph -->
 <div class='paper-box'><div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
-<img src='/_pages/data/figures/one-shot-subgraph.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/figures/one-shot-subgraph.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-one-shot-subgraph.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -226,8 +243,10 @@ In ICLR 2024.
 [[slides]](/_pages/data/slides-one-shot-subgraph.pdf)
 [[poster]](/_pages/data/poster-one-shot-subgraph.pdf)
 [[EN-video]](https://iclr.cc/virtual/2024/poster/18681)
+</div>
+</div>
 
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 To deduce new facts on a knowledge graph (KG), a link predictor learns from the graph structure and collects local evidence to find the answer to a given query. However, existing methods suffer from a severe scalability problem due to the utilization of the whole KG for prediction, which hinders their promise on large-scale KGs and cannot be directly addressed by vanilla sampling methods.<br><br>
 
@@ -236,13 +255,14 @@ In this work, we propose the one-shot-subgraph link prediction to achieve effici
 We reveal that  the non-parametric and computation-efficient heuristics Personalized PageRank (PPR) can effectively identify the potential answers and supporting evidence. With efficient subgraph-based prediction, we further introduce the automated searching of the optimal configurations in both data and model spaces. Empirically, we achieve promoted efficiency and leading performances on five large-scale benchmarks.
 </details>
 </div>
-</div>
+</div> -->
 
 
 <!-- ICLR 2024 - Neural Atoms -->
 <div class='paper-box'><div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
-<img src='/_pages/data/figures/neural-atoms.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/figures/neural-atoms.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-neural-atoms.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -256,8 +276,10 @@ In ICLR 2024.
 [[poster]](/_pages/data/poster-neural-atoms.pdf)
 [[EN-video]](https://iclr.cc/virtual/2024/poster/19172)
 [[CN-video]](https://www.bilibili.com/video/BV1qH4y1L7mb/?share_source=copy_web&vd_source=65ec14228a98f635bf0406f14c7f8660&t=5342)  
+</div>
+</div>
 
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 Graph Neural Networks (GNNs) have been widely adopted for drug discovery with molecular graphs. Nevertheless, current GNNs mainly excel in leveraging short-range interactions (SRI) but struggle to capture long-range interactions (LRI), both of which are crucial for determining molecular properties.<br><br> 
 
@@ -266,13 +288,14 @@ To tackle this issue, we propose a method to abstract the collective information
 To provide an inspection of our method from a physical perspective, we reveal its connection to the traditional LRI calculation method, Ewald Summation. The Neural Atom can enhance GNNs to capture LRI by approximating the potential LRI of the molecular. We conduct extensive experiments on four long-range graph benchmarks, covering graph-level and link-level tasks on molecular graphs. We achieve up to a 27.32\% and 38.27\% improvement in the 2D and 3D scenarios, respectively. Empirically, our method can be equipped with an arbitrary GNN to help capture LRI.
 </details>
 </div>
-</div>
+</div> -->
 
 
 <!-- KDD 2023 - AdaProp -->
 <div class='paper-box'><div class='paper-box-image'><div>
 <!-- <div class="badge">KDD 2023</div> -->
-<img src='/_pages/data/figures/AdaProp.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/figures/AdaProp.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-AdaProp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge Graph Reasoning.  
@@ -284,15 +307,17 @@ In KDD 2023.
 [[poster]](/_pages/data/poster-AdaProp.pdf)
 [[EN-video]](https://www.youtube.com/watch?v=4YggNGOcTOk)
 [[CN-video]](https://www.bilibili.com/video/BV1EP411p7fP/?t=2078)  
+</div>
+</div>
 
-<details>
+<!-- <details>
 <summary>Quick Introduction</summary>
 Due to the popularity of Graph Neural Networks (GNNs),  various GNN-based methods have been designed to reason on knowledge graphs (KGs). An important design component of GNN-based KG reasoning methods is called the propagation path, which contains a set of involved entities in each propagation step. Existing methods use hand-designed propagation paths, ignoring the correlation between the entities and the query relation. In addition, the number of involved entities will explosively grow at larger propagation steps. <br><br>
 
 In this work, we are motivated to learn an adaptive propagation path in order to filter out irrelevant entities while preserving promising targets. First, we design an incremental sampling mechanism where the nearby targets  and layer-wise connections can be preserved with linear complexity. Second, we design a learning-based sampling distribution to identify the semantically related entities. Extensive experiments show that our method is powerful, efficient and semantic-aware.
 </details>
 </div>
-</div>
+</div> -->
 
 
 # 🎖 Awards
