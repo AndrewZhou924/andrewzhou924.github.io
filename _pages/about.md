@@ -22,7 +22,7 @@ Prior to that, I was a visiting student at [LARS group](https://lars-group.githu
 
 My research focuses on **trustworthy machine reasoning with foundation models** (LLMs, VLMs) to solve **complex problems** such as mathematics and coding, as well as to accelerate scientific discovery and application in fields like biology, chemistry, and healthcare. I believe that **reasoning** is the essential pathway to achieving AGI. Trustworthy machine reasoning encompasses properties such as reasoning power, robustness, safety, and explainability. My work involves developing methodologies, benchmarks, and theoretical foundations to advance these areas.
 
-I am leading the reasoning team in TMLR group and have the privilege of working with several talented researchers. **We welcome potential collaborations in various forms, including visiting PhD students, research assistants, and undergraduate trainees.** *Please feel free to email me and Prof. Han to discuss collaboration opportunities.*
+I am leading the reasoning team in TMLR group and fortunately working with several talented researchers. **We welcome potential collaborations in various forms, including visiting PhD students, research assistants, and undergraduate trainees.** *Please feel free to email me and Prof. Han to discuss collaboration opportunities.*
 We are also organizing the [TMLR Young Scientist Seminars](https://tmlr-group.github.io/seminars/TMLR_YSS.html) and actively seeking researchers interested in sharing their work. If you would like to give a talk, we encourage you to reach out to us.
 
 E-mail: cszkzhou [at] comp.hkbu.edu.hk / zhanke [at] cs.stanford.edu 
