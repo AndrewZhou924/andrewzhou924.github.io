@@ -229,7 +229,7 @@ ICML 2024.
 <div class='paper-box-text' markdown="1">
 
 Less is More: One-shot Subgraph Reasoning on Large-scale Knowledge Graphs.  
-**Zhanke Zhou**, Yongqi Zhang, Jiangchao Yao, Quanming Yao, Bo Han✉️.  
+**Zhanke Zhou**, Yongqi Zhang, Jiangchao Yao, Quanming Yao, Bo Han✉️  
 ICLR 2024.
 [[paper]](https://arxiv.org/pdf/2403.10231.pdf)
 [[code]](https://github.com/tmlr-group/one-shot-subgraph)
@@ -249,7 +249,7 @@ ICLR 2024.
 
 Neural Atoms: Propagating Long-range Interaction in Molecular Graphs   
 through Efficient Communication Channel.  
-Xuan Li\*, **Zhanke Zhou\***, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️.  
+Xuan Li\*, **Zhanke Zhou\***, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️  
 ICLR 2024.
 [[paper]](https://arxiv.org/pdf/2311.01276.pdf)
 [[code]](https://github.com/tmlr-group/NeuralAtom)
@@ -266,7 +266,7 @@ ICLR 2024.
 <div class='paper-box-text' markdown="1">
 
 Understanding Fairness Surrogate Functions in Algorithmic Fairness.  
-Wei Yao\*, **Zhanke Zhou\***, Zhicong Li, Bo Han, Yong Liu✉️.  
+Wei Yao\*, **Zhanke Zhou\***, Zhicong Li, Bo Han, Yong Liu✉️  
 TMLR 2024.
 [[paper]](https://arxiv.org/pdf/2310.11211.pdf)
 [[code]](https://github.com/yw101004244/Understanding-Fairness-Surrogate-Functions)
@@ -303,7 +303,7 @@ Arxiv 2024.
 
 Combating Bilateral Edge Noise for Robust Link Prediction.  
 **Zhanke Zhou**, Jiangchao Yao✉️, Jiaxu Liu, Xiawei Guo, Quanming Yao,  
-Li He, Liang Wang, Bo Zheng, Bo Han✉️.  
+Li He, Liang Wang, Bo Zheng, Bo Han✉️  
 NeurIPS 2023.
 [[paper]](https://arxiv.org/pdf/2311.01196.pdf)
 [[code]](https://github.com/tmlr-group/RGIB)
@@ -324,7 +324,7 @@ NeurIPS 2023.
 <div class='paper-box-text' markdown="1">
 
 On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation.  
-**Zhanke Zhou**, Chenyu Zhou, Xuan Li, Jiangchao Yao✉️, Quanming Yao, Bo Han✉️.  
+**Zhanke Zhou**, Chenyu Zhou, Xuan Li, Jiangchao Yao✉️, Quanming Yao, Bo Han✉️  
 ICML 2023.
 [[paper]](https://arxiv.org/pdf/2306.09104.pdf)
 [[code]](https://github.com/tmlr-group/MC-GRA)
@@ -345,7 +345,7 @@ ICML 2023.
 <div class='paper-box-text' markdown="1">
 
 Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge Graph Reasoning.  
-Yongqi Zhang\*, **Zhanke Zhou\***, Quanming Yao✉️, Xiaowen Chu, Bo Han.  
+Yongqi Zhang\*, **Zhanke Zhou\***, Quanming Yao✉️, Xiaowen Chu, Bo Han  
 KDD 2023.
 [[paper]](https://arxiv.org/pdf/2205.15319.pdf)
 [[code]](https://github.com/LARS-research/AdaProp)
@@ -362,7 +362,7 @@ KDD 2023.
 <div class='paper-box-text' markdown="1">
 
 KGTuner: Efficient Hyper-parameter Search for Knowledge Graph Learning.  
-Yongqi Zhang, **Zhanke Zhou**, Quanming Yao✉️, Yong Li.  
+Yongqi Zhang, **Zhanke Zhou**, Quanming Yao✉️, Yong Li  
 ACL 2022 (long paper).
 [[paper]](https://arxiv.org/pdf/2205.02460.pdf)
 [[code]](https://github.com/LARS-research/KGTuner)
