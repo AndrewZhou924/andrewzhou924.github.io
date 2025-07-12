@@ -29,7 +29,7 @@ My work involves developing methodologies, benchmarks, and theoretical foundatio
 I am leading the reasoning team in TMLR group and fortunately working with several talented researchers. **We welcome potential collaborations in various forms, including visiting PhD students, research assistants, and undergraduate trainees.** *Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) and [Prof. Bo Han](mailto:bhanml@comp.hkbu.edu.hk) to discuss collaboration opportunities.*
 We are also organizing the [TMLR Young Scientist Seminars](https://tmlr-group.github.io/seminars/TMLR_YSS.html) and actively seeking researchers interested in sharing their work. If you would like to give a talk, we encourage you to reach out to us.
 
-E-mail: cszkzhou [at] comp.hkbu.edu.hk / zhanke [at] cs.stanford.edu 
+E-mail: cszkzhou [at] comp.hkbu.edu.hk / zhanke [at] cs.stanford.edu / andrewzhou924 [at] gmail.com
 
 
 # 📖 Educations
@@ -53,10 +53,10 @@ From Passive to Active Reasoning: Can Large Language Models Ask the Right Questi
 ICML 2025.
 [[paper]](https://arxiv.org/pdf/2506.08295)
 [[code]](https://github.com/tmlr-group/AR-Bench)
-<!-- [[slides]]() -->
-<!-- [[poster]]() -->
-<!-- [[EN-video]]() -->
-<!-- [[CN-video]]() -->
+[[slides]](https://docs.google.com/presentation/d/1lFvnGzM6QsVUFlOe_CM6WqX8qPnNMtMkoefObJv4FAA/edit?usp=sharing)
+[[poster]](/_pages/data/poster-ARBench.pdf)
+[[EN-video]](https://recorder-v3.slideslive.com/?share=102661&s=59c868a3-9715-4031-a690-6128a9befc18)
+[[CN-video]](https://www.bilibili.com/video/BV1i4KozXETv/)
 <!-- [[CN-blog]]() -->
 <!-- [[twitter]]() -->
 </div>
@@ -73,10 +73,10 @@ Yi Xie\*, **Zhanke Zhou\***, Chentao Cao, Qiyu Niu, Tongliang Liu, Bo Han✉️
 ICML 2025.
 [[paper]](https://arxiv.org/pdf/2506.08292)
 [[code]](https://github.com/tmlr-group/ECON)
-<!-- [[slides]]() -->
-<!-- [[poster]]() -->
-<!-- [[EN-video]]() -->
-<!-- [[CN-video]]() -->
+[[slides]](https://drive.google.com/file/d/1CgjI5oxIYN7NqTaSSCPpSQxyGL3bBE6J/view)
+[[poster]](/_pages/data/poster-ECON.pdf)
+[[EN-video]](https://drive.google.com/file/d/1NvKsT6J57R_OlkYvC1qRoOqdhyd8R4bG/view)
+[[CN-video]](https://www.bilibili.com/video/BV1i4KozXETv/?t=5108)
 <!-- [[CN-blog]]() -->
 <!-- [[twitter]]() -->
 </div>
@@ -90,15 +90,17 @@ ICML 2025.
 
 Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models.  
 **Zhanke Zhou\***, Zhaocheng Zhu\*, Xuan Li\*, Mikhail Galkin, Xiao Feng, Sanmi Koyejo, Jian Tang, Bo Han✉️  
-ICLR 2025 Workshop on Reasoning and Planning for Large Language Models.
+ICLR 2025 Workshop / ICML 2025 Workshop
+<!-- on Reasoning and Planning for Large Language Models. -->
 [[paper]](https://arxiv.org/pdf/2503.22165)
 [[code]](https://github.com/tmlr-group/landscape-of-thoughts)
-<!-- [[slides]]() -->
-<!-- [[poster]]() -->
+[[tutorial]](https://www.youtube.com/watch?v=Zb8CfYxSvik)
+[[slides]](/_pages/data/slides-landscape.pdf)
+[[poster]](/_pages/data/poster-landscape.pdf)
 <!-- [[EN-video]]() -->
 <!-- [[CN-video]]() -->
 <!-- [[CN-blog]]() -->
-<!-- [[twitter]]() -->
+[[twitter]](https://x.com/zhankezhou/status/1942730655034675426)
 </div>
 </div>
 
@@ -113,8 +115,7 @@ Qizhou Wang, Jin Peng Zhou, **Zhanke Zhou**, Saebyeol Shin, Bo Han✉️, Kilian
 ICLR 2025.
 [[paper]](https://arxiv.org/pdf/2502.19301)
 [[code]](https://github.com/tmlr-group/G-effect)
-<!-- [[slides]]() -->
-<!-- [[poster]]() -->
+[[poster]](/_pages/data/poster-GEffect.pdf)
 <!-- [[EN-video]]() -->
 <!-- [[CN-video]]() -->
 [[CN-blog]](https://www.jiqizhixin.com/articles/2025-04-28-10)
@@ -132,11 +133,11 @@ Chentao Cao, Zhun Zhong, **Zhanke Zhou**, Tongliang Liu, Yang Liu, Kun Zhang, Bo
 ICLR 2025.
 [[paper]](https://arxiv.org/pdf/2502.14604)
 [[code]](https://github.com/tmlr-group/ZS-NTTA)
-<!-- [[slides]]() -->
-<!-- [[poster]]() -->
+<!-- [[slides]](/_pages/data/slides-.pdf) -->
+[[poster]](/_pages/data/poster-NTTA.pdf)
 <!-- [[EN-video]]() -->
 <!-- [[CN-video]]() -->
-<!-- [[CN-blog]]() -->
+[[CN-blog]](https://www.jiqizhixin.com/articles/2024-07-01-16)
 <!-- [[twitter]]() -->
 </div>
 </div>
