@@ -16,32 +16,75 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there, I am (Andrew) Zhanke Zhou, a Ph.D. student at [TMLR group](https://bhanml.github.io/group.html) of Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/) and working with [Prof. Jiangchao Yao](https://sunarker.github.io/).
-Currently, I am a visiting student at [STAIR lab](https://stair.cs.stanford.edu/team/) of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).
-Prior to that, I was a visiting student at [LARS group](https://lars-group.github.io/pages/group.html) of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
+<!-- Hi there,  -->
+I am (Andrew) Zhanke Zhou, a Ph.D. student at [TMLR group](https://bhanml.github.io/group.html) of Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/) and working with [Prof. Jiangchao Yao](https://sunarker.github.io/).
+<!-- I was a visiting student at [STAIR lab](https://stair.cs.stanford.edu/team/) of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/). -->
+<!-- Prior to that, I was a visiting student at [LARS group](https://lars-group.github.io/pages/group.html) of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/). -->
+My research focuses on **trustworthy machine reasoning with foundation models** (LLMs, VLMs) to solve **complex problems** such as mathematics and coding, as well as to accelerate scientific discovery and application in fields like biology, chemistry, and healthcare. I believe that **reasoning** is the essential pathway to achieving AGI. Trustworthy machine reasoning encompasses properties such as reasoning capability, robustness, safety, and explainability. 
+My work involves developing systems, methodologies, and benchmarks to advance these areas:
+- **Reasoning System:** 
+How to construct a trustworthy reasoning system and solve complex problems?  
+<!-- Constructing reasoning systems and solve complex problems. -->
+[[AlphaApollo]](https://arxiv.org/pdf/2510.06261)
+- **Reasoning Methodology:** 
+How to boost the reasoning capabilities through learning?  
+<!-- Boosting the capability, robustness, and safety of machine reasoning. -->
+[[GRA]](https://arxiv.org/pdf/2306.09104) 
+[[RGIB]](https://arxiv.org/pdf/2311.01196) 
+[[Subgraph]](https://arxiv.org/pdf/2403.10231) 
+[[ECON]](https://arxiv.org/pdf/2506.08292)
+[[Neural Atoms]](https://arxiv.org/pdf/2311.01276) 
+[[AdaProp]](https://arxiv.org/pdf/2205.15319)
+- **Reasoning Benchmarks and Analysis:** 
+Where is the boundary of reasoning capabilities, and why?  
+[[AR-Bench]](https://arxiv.org/pdf/2506.08295) 
+[[NoRa]](https://arxiv.org/pdf/2410.23856)
+[[Landscape of thoughts]](https://arxiv.org/pdf/2503.22165)
+[[DeepInception]](https://arxiv.org/pdf/2311.03191) 
+[[MIA survey]](https://arxiv.org/pdf/2411.10023)
 
-My research focuses on **trustworthy machine reasoning with foundation models** (LLMs, VLMs) to solve **complex problems** such as mathematics and coding, as well as to accelerate scientific discovery and application in fields like biology, chemistry, and healthcare. I believe that **reasoning** is the essential pathway to achieving AGI. Trustworthy machine reasoning encompasses properties such as reasoning power, robustness, safety, and explainability. 
-My work involves developing methodologies, benchmarks, and theoretical foundations to advance these areas:
-- Developing advanced trustworthy reasoning systems (incorporating RL and tool learning) [[AR-Bench]](https://arxiv.org/pdf/2506.08295) [[Landscape of thoughts]](https://arxiv.org/pdf/2503.22165) [[ECON]](https://arxiv.org/pdf/2506.08292)
+<!-- - Developing advanced trustworthy reasoning systems (incorporating RL and tool learning) [[AR-Bench]](https://arxiv.org/pdf/2506.08295) [[Landscape of thoughts]](https://arxiv.org/pdf/2503.22165) [[ECON]](https://arxiv.org/pdf/2506.08292)
 - Comprehensive evaluation and benchmarking of foundation model trustworthiness [[NoRa]](https://arxiv.org/pdf/2410.23856) [[DeepInception]](https://arxiv.org/pdf/2311.03191) [[G-effect]](https://arxiv.org/pdf/2502.19301) [[NTTA]](https://arxiv.org/pdf/2502.14604) [[EOE]](https://arxiv.org/pdf/2406.00806)
-- Trustworthy machine learning and reasoning on (knowledge) graphs [[GRA]](https://arxiv.org/pdf/2306.09104) [[RGIB]](https://arxiv.org/pdf/2311.01196) [[Subgraph]](https://arxiv.org/pdf/2403.10231) [[Neural Atoms]](https://arxiv.org/pdf/2311.01276) [[AdaProp]](https://arxiv.org/pdf/2205.15319) [[KGTuner]](https://arxiv.org/pdf/2205.02460)
+- Trustworthy machine learning and reasoning on (knowledge) graphs [[GRA]](https://arxiv.org/pdf/2306.09104) [[RGIB]](https://arxiv.org/pdf/2311.01196) [[Subgraph]](https://arxiv.org/pdf/2403.10231) [[Neural Atoms]](https://arxiv.org/pdf/2311.01276) [[AdaProp]](https://arxiv.org/pdf/2205.15319) [[KGTuner]](https://arxiv.org/pdf/2205.02460) -->
 
-I am leading the reasoning team in TMLR group and fortunately working with several talented researchers. **We welcome potential collaborations in various forms, including visiting PhD students, research assistants, and undergraduate trainees.** *Please feel free to [email me](mailto:cszkzhou@comp.hkbu.edu.hk) and [Prof. Bo Han](mailto:bhanml@comp.hkbu.edu.hk) to discuss collaboration opportunities.*
+I am leading the reasoning team in TMLR group and fortunately working with several talented researchers. **We welcome potential collaborations in various forms, including visiting PhD students, research assistants, and undergraduate trainees (please read this [advertisement](https://www.xiaohongshu.com/explore/68c7dfe9000000001d017da3?note_flow_source=wechat&xsec_token=CBwA6KwvP2vVZQdPZxxZcbsYbxjJ4e8knCfUJnwDohnMg=)).** 
+*Feel free to email [Prof. Bo Han](mailto:bhanml@comp.hkbu.edu.hk) and [me](mailto:cszkzhou@comp.hkbu.edu.hk) to discuss collaboration opportunities.*
 We are also organizing the [TMLR Young Scientist Seminars](https://tmlr-group.github.io/seminars/TMLR_YSS.html) and actively seeking researchers interested in sharing their work. If you would like to give a talk, we encourage you to reach out to us.
 
 E-mail: cszkzhou [at] comp.hkbu.edu.hk / zhanke [at] cs.stanford.edu / andrewzhou924 [at] gmail.com
 
 
-# 📖 Educations
-- *2022.09 - present*, Hong Kong Baptist University (HKBU), Ph.D. in Computer Science.
-- *2017.09 – 2021.06*, Huazhong University of Science and Technology (HUST), B.E. in Electronics 
-and Information Engineering (SeedClass).
+# 📖 Education and Experience
+- *2022.09 - present*, Ph.D. Student, TMLR Group, Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/).
+- *2025.01 - 2025.07*, Visiting Student, STAIR Lab, Stanford University, advised by [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).
+- *2021.01 - 2024.05*, Visiting Student, LARS Group, Tsinghua University, advised by [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
+- *2017.09 – 2021.06*, B.E. in Electronics and Information Engineering (SeedClass), Huazhong University of Science and Technology.
 
-<!-- # Research
-TODO: a short summary of my research -->
 
 # 📝 Selected Publications
 \* Co-first author, ✉️ Corresponding author.
+
+<!-- AlphaApollo -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/AlphaApollo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+AlphaApollo: Orchestrating Foundation Models and Professional Tools into a Self-Evolving System  
+for Deep Agentic Reasoning.  
+**Zhanke Zhou**, Chentao Cao, Xiao Feng, Xuan Li, Zongze Li, Xiangyu Lu, Jiangchao Yao, Weikai Huang, Linrui Xu,  
+Tian Cheng, Guanyu Jiang, Yiming Zheng, Brando Miranda, Tongliang Liu, Sanmi Koyejo, Masashi Sugiyama, Bo Han✉️  
+Technical Report.
+[[paper]](https://arxiv.org/pdf/2510.06261)
+[[code]](https://github.com/tmlr-group/AlphaApollo)
+<!-- [[slides]]() -->
+<!-- [[poster]]() -->
+<!-- [[EN-video]]() -->
+<!-- [[CN-video]]() -->
+<!-- [[CN-blog]]() -->
+<!-- [[twitter]]() -->
+</div>
+</div>
+
 
 <!-- ICML 2025 AR-Bench -->
 <div class='paper-box'><div class='paper-box-image'><div>
@@ -57,11 +100,10 @@ ICML 2025.
 [[poster]](/_pages/data/poster-ARBench.pdf)
 [[EN-video]](https://recorder-v3.slideslive.com/?share=102661&s=59c868a3-9715-4031-a690-6128a9befc18)
 [[CN-video]](https://www.bilibili.com/video/BV1i4KozXETv/)
-<!-- [[CN-blog]]() -->
+[[CN-blog]](https://mp.weixin.qq.com/s/zU8HcZ1q9Dt0KfTRPNcowg)
 <!-- [[twitter]]() -->
 </div>
 </div>
-
 
 <!-- ICML 2025 ECON -->
 <div class='paper-box'><div class='paper-box-image'><div>
@@ -90,7 +132,7 @@ ICML 2025.
 
 Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models.  
 **Zhanke Zhou\***, Zhaocheng Zhu\*, Xuan Li\*, Mikhail Galkin, Xiao Feng, Sanmi Koyejo, Jian Tang, Bo Han✉️  
-ICLR 2025 Workshop / ICML 2025 Workshop
+NeurIPS 2025 Workshop / ICML 2025 Workshop.
 <!-- on Reasoning and Planning for Large Language Models. -->
 [[paper]](https://arxiv.org/pdf/2503.22165)
 [[code]](https://github.com/tmlr-group/landscape-of-thoughts)
@@ -386,6 +428,10 @@ ACL 2022 (long paper).
 - *2021.06*, Outstanding Graduate Award of HUST.
 
 # 💬 Talks
+- *2025.10*, Towards Trustworthy Reasoning Agents: Understanding, Learning, and Systematizing, @LARS Group, THU.
+- *2025.07*, Towards Trustworthy Machine Reasoning: Noisy Rationales, Incomplete Information, and Interpretability, @Rose ML Lab, UCSD.
+- *2025.06*, Can Large Language Models Ask the Right Questions under Incomplete Information?, @AI Time, Online.
+[[Video]](https://www.bilibili.com/video/BV1i4KozXETv/?t=0)
 - *2024.11*, Seminar on Trustworthy Machine Learning and Foundation Models @AI Time, Online.
 [[Video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?t=4700)
 - *2023.11*, Seminar on Trustworthy Machine Learning with Imperfect Data @TechBeat, Online.
@@ -394,7 +440,7 @@ ACL 2022 (long paper).
 [[Video]](https://www.bilibili.com/video/BV1ag4y1Q7ye/?t=7945)
 
 # 💻 Services
-- Conference Reviewer for ICML, NeurIPS, ICLR, AISTATS, ACML, AAAI, IJCAI, COLM, ARR, CIKM, SIGKDD.
+- Conference Reviewer for NeurIPS, ICML, ICLR, AISTATS, ACML, AAAI, IJCAI, COLM, ARR, CIKM, SIGKDD.
 - Journal Reviewer for TPAMI, TMLR, NEUNET, TNNLS, TKDE.
 
 # 🏫 Teaching
@@ -402,15 +448,15 @@ ACL 2022 (long paper).
 - Teaching Assistant for COMP3015: Data Communications and Networking.
 - Teaching Assistant for COMP7070: Advanced Topics in Artificial Intelligence and Machine Learning.
 
-# 📖 Experiences
+<!-- # 📖 Experiences
 - *2022.09 - present*, PhD student @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Prof. Bo Han.
 - *2025.01 - present*, Visiting student @Stanford-[STAIR Lab](https://cs.stanford.edu/~sanmi/), advised with Prof. Sanmi Koyejo.
 - *2022.02 - 2022.09*, Research assistant @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Prof. Bo Han and Prof. Jiangchao Yao.
 - *2021.01 - 2024.05*, Visiting student @THU-[LARS Group](https://lars-group.github.io/pages/group.html), advised by Prof. Quanming Yao and Prof. Yongqi Zhang.
 - *2020.06 - 2020.09*, Research intern @SJTU-[MVIG Group](https://mvig.org/), advised by Prof. Cewu Lu and Prof. Yonglu Li.
-- *2018.03 - 2021.01*, Core Member @HUST-[Dian Group](https://dian.org.cn/), advised by Prof. Yayu Gao, Prof. Chengwei Zhang, and Prof. Xiaojun Hei.
+- *2018.03 - 2021.01*, Core Member @HUST-[Dian Group](https://dian.org.cn/), advised by Prof. Yayu Gao, Prof. Chengwei Zhang, and Prof. Xiaojun Hei. -->
 
-# 💻 Resources
+<!-- # 💻 Resources
 
 I champion open-source research and hope the following resources can benefit you :)
 
@@ -438,10 +484,10 @@ I champion open-source research and hope the following resources can benefit you
 - [NeuralAtom](https://github.com/tmlr-group/NeuralAtom)
 <img src="https://img.shields.io/github/stars/tmlr-group/NeuralAtom?color=yellow&label=Star" alt="Stars" >
 - [Awesome-Graph-Prompting](https://github.com/AndrewZhou924/Awesome-Graph-Prompting)
-<img src="https://img.shields.io/github/stars/AndrewZhou924/Awesome-Graph-Prompting?color=yellow&label=Star" alt="Stars" >
+<img src="https://img.shields.io/github/stars/AndrewZhou924/Awesome-Graph-Prompting?color=yellow&label=Star" alt="Stars" > -->
 
 
-## Source Files of My Talks or Posters
+<!-- ## Source Files of My Talks or Posters
 - All my posters are here.
 [[slides-pdf]](/_pages/data/all-the-posters.pdf)
 [[slides-pptx]](/_pages/data/all-the-posters.pptx)
@@ -492,7 +538,7 @@ I champion open-source research and hope the following resources can benefit you
 [[slides-pptx]](/_pages/data/talks/20210401-paper-reading-interstellar.pptx)
 - 20201213: Paper reading of [UAMT](https://arxiv.org/pdf/1907.07034).
 [[slides-pdf]](/_pages/data/talks/20201213-paper-reading-UAMT.pdf)
-[[slides-pptx]](/_pages/data/talks/20201213-paper-reading-UAMT.pptx)
+[[slides-pptx]](/_pages/data/talks/20201213-paper-reading-UAMT.pptx) -->
 
 
 <!-- ## References

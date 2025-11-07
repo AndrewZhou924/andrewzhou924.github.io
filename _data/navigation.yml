@@ -1,13 +1,21 @@
-# main links links
 main:
   - title: "About"
     url: "/#about-me"
 
-  # - title: "Educations"
-  #   url: "/#-educations"
+  - title: "Education"
+    url: "/#-education-and-experience"
 
-  - title: "Publications"
+  - title: "Publication"
     url: "/#-selected-publications"
 
-  - title: "Resources"
-    url: "/#-resources"
+  - title: "Award"
+    url: "/#-awards"
+
+  - title: "Talk"
+    url: "/#-talks"
+
+  - title: "Service"
+    url: "/#-services"
+
+  - title: "Teaching"
+    url: "/#-teaching"
