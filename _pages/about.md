@@ -21,27 +21,28 @@ I am (Andrew) Zhanke Zhou, a Ph.D. student at [TMLR group](https://bhanml.github
 <!-- I was a visiting student at [STAIR lab](https://stair.cs.stanford.edu/team/) of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/). -->
 <!-- Prior to that, I was a visiting student at [LARS group](https://lars-group.github.io/pages/group.html) of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/). -->
 My research focuses on **trustworthy machine reasoning with foundation models** (LLMs, VLMs) to solve **complex problems** such as mathematics and coding, as well as to accelerate scientific discovery and application in fields like biology, chemistry, and healthcare. I believe that **reasoning** is the essential pathway to achieving AGI. Trustworthy machine reasoning encompasses properties such as reasoning capability, robustness, safety, and explainability. 
-My work involves developing systems, methodologies, and benchmarks to advance these areas:
-- **Reasoning System:** 
-How to construct a trustworthy reasoning system and solve complex problems?  
-<!-- Constructing reasoning systems and solve complex problems. -->
+My work involves developing methodologies, benchmarks, and applications to advance these areas:
+- **Methodology/System of Trustworthy Machine Reasoning:** 
+How to conduct trustworthy reasoning and solve problems?  
 [[AlphaApollo]](https://arxiv.org/pdf/2510.06261)
-- **Reasoning Methodology:** 
-How to boost the reasoning capabilities through learning?  
-<!-- Boosting the capability, robustness, and safety of machine reasoning. -->
 [[GRA]](https://arxiv.org/pdf/2306.09104) 
 [[RGIB]](https://arxiv.org/pdf/2311.01196) 
 [[Subgraph]](https://arxiv.org/pdf/2403.10231) 
 [[ECON]](https://arxiv.org/pdf/2506.08292)
-[[Neural Atoms]](https://arxiv.org/pdf/2311.01276) 
 [[AdaProp]](https://arxiv.org/pdf/2205.15319)
-- **Reasoning Benchmarks and Analysis:** 
+- **Benchmark/Evaluation of Trustworthy Machine Reasoning:** 
 Where is the boundary of reasoning capabilities, and why?  
 [[AR-Bench]](https://arxiv.org/pdf/2506.08295) 
+[[VeriBench]](https://openreview.net/pdf?id=rWkGFmnSNl)
 [[NoRa]](https://arxiv.org/pdf/2410.23856)
 [[Landscape of thoughts]](https://arxiv.org/pdf/2503.22165)
 [[DeepInception]](https://arxiv.org/pdf/2311.03191) 
 [[MIA survey]](https://arxiv.org/pdf/2411.10023)
+- **Application/Deployment of Trustworthy Machine Reasoning:** 
+How to boost scientific discovery and solve real-world problems?  
+[[RePO]](https://openreview.net/pdf?id=m4nvqQkm4X)
+[[Neural Atoms]](https://arxiv.org/pdf/2311.01276) 
+<!-- [[RewardFlow]]() -->
 
 <!-- - Developing advanced trustworthy reasoning systems (incorporating RL and tool learning) [[AR-Bench]](https://arxiv.org/pdf/2506.08295) [[Landscape of thoughts]](https://arxiv.org/pdf/2503.22165) [[ECON]](https://arxiv.org/pdf/2506.08292)
 - Comprehensive evaluation and benchmarking of foundation model trustworthiness [[NoRa]](https://arxiv.org/pdf/2410.23856) [[DeepInception]](https://arxiv.org/pdf/2311.03191) [[G-effect]](https://arxiv.org/pdf/2502.19301) [[NTTA]](https://arxiv.org/pdf/2502.14604) [[EOE]](https://arxiv.org/pdf/2406.00806)
@@ -76,6 +77,7 @@ Tian Cheng, Guanyu Jiang, Yiming Zheng, Brando Miranda, Tongliang Liu, Sanmi Koy
 Technical Report.
 [[paper]](https://arxiv.org/pdf/2510.06261)
 [[code]](https://github.com/tmlr-group/AlphaApollo)
+[[website]](https://alphaapollo.org/)
 <!-- [[slides]]() -->
 <!-- [[poster]]() -->
 <!-- [[EN-video]]() -->
@@ -85,6 +87,41 @@ Technical Report.
 </div>
 </div>
 
+<!-- Landscape of thoughts -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/Landscape.png' alt="sym" width="100%"></div></div>
+<!-- <img src='/_pages/data/poster-landscape.png' alt="sym" width="100%"></div></div> -->
+<div class='paper-box-text' markdown="1">
+
+Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models.  
+**Zhanke Zhou\***, Zhaocheng Zhu\*, Xuan Li\*, Mikhail Galkin, Xiao Feng, Sanmi Koyejo, Jian Tang, Bo Han✉️  
+ICLR 2026.
+<!-- on Reasoning and Planning for Large Language Models. -->
+[[paper]](https://arxiv.org/pdf/2503.22165)
+[[code]](https://github.com/tmlr-group/landscape-of-thoughts)
+[[website]](https://landscape-of-thoughts.github.io/)
+[[tutorial]](https://www.youtube.com/watch?v=Zb8CfYxSvik)
+[[slides]](/_pages/data/slides-landscape.pdf)
+[[poster]](/_pages/data/poster-landscape.pdf)
+<!-- [[EN-video]]() -->
+<!-- [[CN-video]]() -->
+<!-- [[CN-blog]]() -->
+[[twitter]](https://x.com/zhankezhou/status/1942730655034675426)
+</div>
+</div>
+
+<!-- RePO -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/RePO.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Reference-Guided Policy Optimization for Molecular Optimization via LLM Reasoning.  
+Xuan Li, **Zhanke Zhou**, Zongze Li, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️  
+ICLR 2026.
+[[paper]](https://openreview.net/pdf?id=m4nvqQkm4X)
+[[code]](https://github.com/tmlr-group/RePO)
+</div>
+</div>
 
 <!-- ICML 2025 AR-Bench -->
 <div class='paper-box'><div class='paper-box-image'><div>
@@ -121,28 +158,6 @@ ICML 2025.
 [[CN-video]](https://www.bilibili.com/video/BV1i4KozXETv/?t=5108)
 <!-- [[CN-blog]]() -->
 <!-- [[twitter]]() -->
-</div>
-</div>
-
-<!-- Landscape of thoughts -->
-<div class='paper-box'><div class='paper-box-image'><div>
-<img src='/_pages/data/figures/Landscape.png' alt="sym" width="100%"></div></div>
-<!-- <img src='/_pages/data/poster-landscape.png' alt="sym" width="100%"></div></div> -->
-<div class='paper-box-text' markdown="1">
-
-Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models.  
-**Zhanke Zhou\***, Zhaocheng Zhu\*, Xuan Li\*, Mikhail Galkin, Xiao Feng, Sanmi Koyejo, Jian Tang, Bo Han✉️  
-NeurIPS 2025 Workshop / ICML 2025 Workshop.
-<!-- on Reasoning and Planning for Large Language Models. -->
-[[paper]](https://arxiv.org/pdf/2503.22165)
-[[code]](https://github.com/tmlr-group/landscape-of-thoughts)
-[[tutorial]](https://www.youtube.com/watch?v=Zb8CfYxSvik)
-[[slides]](/_pages/data/slides-landscape.pdf)
-[[poster]](/_pages/data/poster-landscape.pdf)
-<!-- [[EN-video]]() -->
-<!-- [[CN-video]]() -->
-<!-- [[CN-blog]]() -->
-[[twitter]](https://x.com/zhankezhou/status/1942730655034675426)
 </div>
 </div>
 
@@ -428,6 +443,9 @@ ACL 2022 (long paper).
 - *2021.06*, Outstanding Graduate Award of HUST.
 
 # 💬 Talks
+- *2026.01*, Trustworthy Machine Reasoning with Foundation Models Tutorial at AAAI 2026, Singapore. 
+[[Website]](https://trustworthy-machine-reasoning.github.io/)
+[[Slides]](https://trustworthy-machine-reasoning.github.io/AAAI2026Tutorial-TH10-slides-20260120-v6.pdf)
 - *2025.10*, Towards Trustworthy Reasoning Agents: Understanding, Learning, and Systematizing, @LARS Group, THU.
 - *2025.07*, Towards Trustworthy Machine Reasoning: Noisy Rationales, Incomplete Information, and Interpretability, @Rose ML Lab, UCSD.
 - *2025.06*, Can Large Language Models Ask the Right Questions under Incomplete Information?, @AI Time, Online.
@@ -444,9 +462,10 @@ ACL 2022 (long paper).
 - Journal Reviewer for TPAMI, TMLR, NEUNET, TNNLS, TKDE.
 
 # 🏫 Teaching
-- Teaching Assistant for COMP7250: Machine Learning.
-- Teaching Assistant for COMP3015: Data Communications and Networking.
-- Teaching Assistant for COMP7070: Advanced Topics in Artificial Intelligence and Machine Learning.
+- Speaker for Master of Technology Entrepreneurship (MTE), PolyU.
+- Teaching Assistant for COMP7250: Machine Learning, HKBU.
+- Teaching Assistant for COMP7070: Advanced Topics in Artificial Intelligence and Machine Learning, HKBU.
+
 
 <!-- # 📖 Experiences
 - *2022.09 - present*, PhD student @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Prof. Bo Han.
