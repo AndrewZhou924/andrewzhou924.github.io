@@ -71,7 +71,9 @@ E-mail: cszkzhou [at] comp.hkbu.edu.hk / zhanke [at] cs.stanford.edu / andrewzho
 <div class='paper-box-text' markdown="1">
 
 AlphaApollo: A System for Deep Agentic Reasoning.  
-**Zhanke Zhou**, Chentao Cao, Xiao Feng, Xuan Li, Zongze Li, Xiangyu Lu, Jiangchao Yao, Weikai Huang, Tian Cheng, Jianghangfan Zhang, Tangyu Jiang, Linrui Xu, Yiming Zheng, Brando Miranda, Tongliang Liu, Sanmi Koyejo, Masashi Sugiyama, Bo Han✉️  
+**Zhanke Zhou**, Chentao Cao, Xiao Feng, Xuan Li, Zongze Li, Xiangyu Lu, Jiangchao Yao,  
+Weikai Huang, Tian Cheng, Jianghangfan Zhang, Tangyu Jiang, Linrui Xu, Yiming Zheng,  
+Brando Miranda, Tongliang Liu, Sanmi Koyejo, Masashi Sugiyama, Bo Han✉️  
 Technical Report.
 [[paper]](https://arxiv.org/pdf/2510.06261)
 [[code]](https://github.com/tmlr-group/AlphaApollo)
