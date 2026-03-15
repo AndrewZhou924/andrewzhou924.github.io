@@ -70,10 +70,8 @@ E-mail: cszkzhou [at] comp.hkbu.edu.hk / zhanke [at] cs.stanford.edu / andrewzho
 <img src='/_pages/data/figures/AlphaApollo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-AlphaApollo: Orchestrating Foundation Models and Professional Tools into a Self-Evolving System  
-for Deep Agentic Reasoning.  
-**Zhanke Zhou**, Chentao Cao, Xiao Feng, Xuan Li, Zongze Li, Xiangyu Lu, Jiangchao Yao, Weikai Huang, Linrui Xu,  
-Tian Cheng, Guanyu Jiang, Yiming Zheng, Brando Miranda, Tongliang Liu, Sanmi Koyejo, Masashi Sugiyama, Bo Han✉️  
+AlphaApollo: A System for Deep Agentic Reasoning.  
+**Zhanke Zhou**, Chentao Cao, Xiao Feng, Xuan Li, Zongze Li, Xiangyu Lu, Jiangchao Yao, Weikai Huang, Tian Cheng, Jianghangfan Zhang, Tangyu Jiang, Linrui Xu, Yiming Zheng, Brando Miranda, Tongliang Liu, Sanmi Koyejo, Masashi Sugiyama, Bo Han✉️  
 Technical Report.
 [[paper]](https://arxiv.org/pdf/2510.06261)
 [[code]](https://github.com/tmlr-group/AlphaApollo)
@@ -118,7 +116,7 @@ ICLR 2026.
 Reference-Guided Policy Optimization for Molecular Optimization via LLM Reasoning.  
 Xuan Li, **Zhanke Zhou**, Zongze Li, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️  
 ICLR 2026.
-[[paper]](https://openreview.net/pdf?id=m4nvqQkm4X)
+[[paper]](https://arxiv.org/pdf/2603.05900)
 [[code]](https://github.com/tmlr-group/RePO)
 </div>
 </div>

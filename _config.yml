@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhanke Zhou (Andrew)"
+title                    : "(Andrew) Zhanke Zhou"
 description              : "Focus on Trustworthy Machine Reasoning."
 repository               : "AndrewZhou924/andrewzhou924.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zhanke Zhou (Andrew)"
+  name             : "(Andrew) Zhanke Zhou"
   avatar           : "images/Avatar-square.jpg"
   bio              : "PhD student at HKBU."
   location         :
