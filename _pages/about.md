@@ -120,6 +120,8 @@ Xuan Li, **Zhanke Zhou**, Zongze Li, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Hanâœ‰
 ICLR 2026.
 [[paper]](https://arxiv.org/pdf/2603.05900)
 [[code]](https://github.com/tmlr-group/RePO)
+[[slides]](/_pages/data/slides-RePO.pdf)
+[[poster]](/_pages/data/poster-RePO.pdf)
 </div>
 </div>
 
@@ -230,10 +232,9 @@ Hongduan Tian, Feng Liu, **Zhanke Zhou**, Tongliang Liu, Chengqi Zhang, Bo Hanâœ
 NeurIPS 2024.
 [[paper]](https://arxiv.org/pdf/2410.12474)
 [[code]](https://github.com/tmlr-group/CoPA)
-<!-- [[slides]]() -->
-<!-- [[poster]]() -->
-<!-- [[EN-video]]() -->
-<!-- [[CN-video]]() -->
+[[slides]](/_pages/data/slides-CoPA.pdf)
+[[poster]](/_pages/data/poster-CoPA.pdf)
+[[CN-video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?t=629)
 <!-- [[CN-blog]]() -->
 <!-- [[twitter]]() -->
 </div>
