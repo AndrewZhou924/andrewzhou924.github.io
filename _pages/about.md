@@ -104,8 +104,8 @@ ICLR 2026.
 [[slides]](/_pages/data/slides-landscape.pdf)
 [[poster]](/_pages/data/poster-landscape.pdf)
 <!-- [[EN-video]]() -->
-<!-- [[CN-video]]() -->
-<!-- [[CN-blog]]() -->
+[[CN-video]](https://www.bilibili.com/video/BV1uVdgBSE34/?t=1872)
+[[CN-blog]](https://mp.weixin.qq.com/s/KC39I5XOwhSN4Jo8e3g12A)
 [[twitter]](https://x.com/zhankezhou/status/1942730655034675426)
 </div>
 </div>
