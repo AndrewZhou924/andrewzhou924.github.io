@@ -1,3 +1,17 @@
+<!-- Deliberate Evolution -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/DeliberateEvolution.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Deliberate Evolution: Agentic Reasoning for Sample-Efficient Symbolic Regression with LLMs  
+Xinyu Pang\*, **Zhanke Zhou\***, Xuan Li, Fangrui Lv, Shanshan Wei, Sen Cui, Bo Han, Changshui Zhang✉️  
+ICML 2026.  
+[[paper]](https://arxiv.org/abs/2606.04360)  
+[[code]](https://github.com/Xinyu-Pang/Deliberate-Evolution)
+
+</div>
+</div>
+
 <!-- RePO -->
 <div class='paper-box'><div class='paper-box-image'><div>
 <img src='/_pages/data/figures/RePO.png' alt="sym" width="100%"></div></div>

@@ -22,8 +22,7 @@ I am (Andrew) Zhanke Zhou, a PhD student at [TMLR group](https://bhanml.github.i
 <!-- I was a visiting student at [STAIR lab](https://stair.cs.stanford.edu/team/) of Stanford University, working with [Prof. Sanmi Koyejo](https://cs.stanford.edu/~sanmi/). -->
 <!-- Prior to that, I was a visiting student at [LARS group](https://lars-group.github.io/pages/group.html) of Tsinghua University, working with [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/). -->
 
-My research focuses on **trustworthy machine reasoning with foundation models** (LLMs, VLMs) to solve **complex problems** such as mathematics and coding, as well as to accelerate scientific discovery and application in fields like biology, chemistry, and healthcare. I believe that **reasoning** is the essential pathway to achieving AGI. Trustworthy machine reasoning encompasses properties such as reasoning capability, robustness, safety, and explainability. 
-My work involves developing methodologies, evaluations, and applications to advance these areas:
+My research advances **trustworthy machine reasoning** with foundation models as a pathway toward AGI, with the goal of solving complex problems and accelerating scientific discovery in domains such as mathematics, physics, and bioinformatics. I view reasoning as a multidimensional capability that must combine strong problem-solving power with robustness, safety, and interpretability. My work develops principled methodologies, rigorous evaluations, and impactful applications to systematically advance these dimensions.
 - **Methodology of Trustworthy Machine Reasoning:** 
 How to conduct trustworthy reasoning and solve problems?  
 [[AlphaApollo]](https://github.com/tmlr-group/AlphaApollo)
@@ -56,11 +55,10 @@ How to boost scientific discovery and solve real-world problems?
 
 I am leading the reasoning team in TMLR group and fortunately working with several talented researchers. **We welcome potential collaborations in various forms, including visiting PhD students, research assistants, and undergraduate trainees.**
 <!-- (please read this [advertisement](https://www.xiaohongshu.com/explore/68c7dfe9000000001d017da3?note_flow_source=wechat&xsec_token=CBwA6KwvP2vVZQdPZxxZcbsYbxjJ4e8knCfUJnwDohnMg=)). --> 
-*Feel free to email [Prof. Bo Han](mailto:bhanml@comp.hkbu.edu.hk) and [me](mailto:cszkzhou@comp.hkbu.edu.hk) to discuss collaboration opportunities.*
+*Feel free to email [Prof. Bo Han](mailto:bhanml@comp.hkbu.edu.hk) and [me](mailto:cszkzhou@comp.hkbu.edu.hk) to discuss collaboration opportunities*
+(my email: cszkzhou@comp.hkbu.edu.hk).
 
 <!-- We are also organizing the [TMLR Young Scientist Seminars](https://tmlr-group.github.io/seminars/TMLR_YSS.html) and actively seeking researchers interested in sharing their work. If you would like to give a talk, we encourage you to reach out to us. -->
-
-E-mail: cszkzhou@comp.hkbu.edu.hk
 
 # 📖 Education and Experience
 - *2022.09 - present*, Ph.D. Student, TMLR Group, Hong Kong Baptist University, advised by [Prof. Bo Han](https://bhanml.github.io/).
@@ -68,8 +66,7 @@ E-mail: cszkzhou@comp.hkbu.edu.hk
 - *2021.01 - 2024.05*, Visiting Student, LARS Group, Tsinghua University, advised by [Prof. Quanming Yao](https://lars-group.github.io/) and [Prof. Yongqi Zhang](https://yzhangee.github.io/).
 - *2017.09 – 2021.06*, B.E. in Electronics and Information Engineering (SeedClass), Huazhong University of Science and Technology.
 
-
-# 📝 Selected Publications
+# 📝 Core Publications
 \* Co-first author, ✉️ Corresponding author.
 
 <!-- AlphaApollo -->
@@ -104,7 +101,7 @@ AlphaDiana: A System for Evaluating Reasoning Agents.
 Jinbo Hu, Menghan Lu, Yi Xie, Nico Pelleriti, Shiyang Liu, Max Zimmer, Brando Miranda,  
 Jiangchao Yao, Bo Liu, Sanmi Koyejo, Sebastian Pokutta, Bo Han✉️  
 Technical Report.
-<!-- [[paper]]() -->
+[paper (coming soon)]
 [[code]](https://github.com/tmlr-group/AlphaDiana)
 <!-- [[website]]() -->
 
@@ -188,6 +185,305 @@ NeurIPS 2024.
 </div>
 </div>
 
+# 📝 Selected Publications
+
+<!-- Deliberate Evolution -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/DeliberateEvolution.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Deliberate Evolution: Agentic Reasoning for Sample-Efficient Symbolic Regression with LLMs  
+Xinyu Pang\*, **Zhanke Zhou\***, Xuan Li, Fangrui Lv, Shanshan Wei, Sen Cui, Bo Han, Changshui Zhang✉️  
+ICML 2026.
+[[paper]](https://arxiv.org/abs/2606.04360)
+[[code]](https://github.com/Xinyu-Pang/Deliberate-Evolution)
+
+</div>
+</div>
+
+<!-- RePO -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/RePO.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Reference-Guided Policy Optimization for Molecular Optimization via LLM Reasoning.  
+Xuan Li, **Zhanke Zhou**, Zongze Li, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️  
+ICLR 2026.
+[[paper]](https://arxiv.org/abs/2603.05900)
+[[code]](https://github.com/tmlr-group/RePO)
+[[slides]](/_pages/data/slides-RePO.pdf)
+[[poster]](/_pages/data/poster-RePO.pdf)
+</div>
+</div>
+
+<!-- ICML 2025 ECON -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/ECON.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+From Debate to Equilibrium: Belief-Driven Multi-Agent LLM Reasoning via Bayesian Nash Equilibrium.  
+Yi Xie\*, **Zhanke Zhou\***, Chentao Cao, Qiyu Niu, Tongliang Liu, Bo Han✉️  
+ICML 2025.
+[[paper]](https://arxiv.org/abs/2506.08292)
+[[code]](https://github.com/tmlr-group/ECON)
+[[slides]](https://drive.google.com/file/d/1CgjI5oxIYN7NqTaSSCPpSQxyGL3bBE6J/view)
+[[poster]](/_pages/data/poster-ECON.pdf)
+[[EN-video]](https://drive.google.com/file/d/1NvKsT6J57R_OlkYvC1qRoOqdhyd8R4bG/view)
+[[CN-video]](https://www.bilibili.com/video/BV1i4KozXETv/?t=5108)
+<!-- [[CN-blog]]() -->
+<!-- [[twitter]]() -->
+</div>
+</div>
+
+
+<!-- ICLR 2025 - G-effect -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/G-effect.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Rethinking LLM Unlearning Objectives: A Gradient Perspective and Go Beyond.  
+Qizhou Wang, Jin Peng Zhou, **Zhanke Zhou**, Saebyeol Shin, Bo Han✉️, Kilian Q. Weinberger  
+ICLR 2025.
+[[paper]](https://arxiv.org/abs/2502.19301)
+[[code]](https://github.com/tmlr-group/G-effect)
+[[poster]](/_pages/data/poster-GEffect.pdf)
+<!-- [[EN-video]]() -->
+<!-- [[CN-video]]() -->
+[[CN-blog]](https://www.jiqizhixin.com/articles/2025-04-28-10)
+<!-- [[twitter]]() -->
+</div>
+</div>
+
+<!-- ICLR 2025 - NTTA -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/NTTA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Noisy Test-Time Adaptation in Vision-Language Models.  
+Chentao Cao, Zhun Zhong, **Zhanke Zhou**, Tongliang Liu, Yang Liu, Kun Zhang, Bo Han✉️  
+ICLR 2025.
+[[paper]](https://arxiv.org/abs/2502.14604)
+[[code]](https://github.com/tmlr-group/ZS-NTTA)
+<!-- [[slides]](/_pages/data/slides-.pdf) -->
+[[poster]](/_pages/data/poster-NTTA.pdf)
+<!-- [[EN-video]]() -->
+<!-- [[CN-video]]() -->
+[[CN-blog]](https://www.jiqizhixin.com/articles/2024-07-01-16)
+<!-- [[twitter]]() -->
+</div>
+</div>
+
+
+<!-- Cross-domain Finetuning -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/CoPA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Mind the Gap Between Prototypes and Images in Cross-domain Finetuning.  
+Hongduan Tian, Feng Liu, **Zhanke Zhou**, Tongliang Liu, Chengqi Zhang, Bo Han✉️  
+NeurIPS 2024.
+[[paper]](https://arxiv.org/abs/2410.12474)
+[[code]](https://github.com/tmlr-group/CoPA)
+[[slides]](/_pages/data/slides-CoPA.pdf)
+[[poster]](/_pages/data/poster-CoPA.pdf)
+[[CN-video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?t=629)
+<!-- [[CN-blog]]() -->
+<!-- [[twitter]]() -->
+</div>
+</div>
+
+
+<!-- DeepInception -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <img src='/_pages/data/figures/DeepInception.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/figures/DeepInception.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+DeepInception: Hypnotize Large Language Model to Be Jailbreaker.  
+Xuan Li\*, **Zhanke Zhou\***, Jianing Zhu\*, Jiangchao Yao, Tongliang Liu, Bo Han✉️  
+NeurIPS 2024 SafeGenAI Workshop.
+[[paper]](https://arxiv.org/abs/2311.03191.pdf)
+[[code]](https://github.com/tmlr-group/DeepInception)
+<!-- [[website]](https://deepinception.github.io/) -->
+[[slides]](./_pages/data/slides-DeepInception.pdf)
+[[twitter]](https://twitter.com/Jianing9810/status/1721894260231098812)
+[[CN-video]](https://www.bilibili.com/video/BV16N4y1i7Rw/?t=2477)
+[[CN-blog]](https://mp.weixin.qq.com/s/PufSBheCrJsjzkC4LD20Nw)
+[[DeepTech]](https://mp.weixin.qq.com/s/kN_tmAADSHLHEbgNB7Z3Ng)
+</div>
+</div>
+
+
+<!-- ICML - EOE -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <img src='/_pages/data/figures/EOE.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-EOE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Envisioning Outlier Exposure by Large Language Models for Out-of-Distribution Detection.  
+Chentao Cao, Zhun Zhong, **Zhanke Zhou**, Yang Liu, Tongliang Liu, Bo Han✉️  
+ICML 2024.
+[[paper]](https://arxiv.org/abs/2406.00806)
+[[code]](https://github.com/tmlr-group/EOE/)
+[[slides]](./_pages/data/slides-EOE.pdf)
+[[poster]](/_pages/data/poster-EOE.pdf)
+[[CN-video]](https://www.bilibili.com/video/BV1k4421X7zK?t=1272.0)
+[[CN-blog]](https://www.jiqizhixin.com/articles/2024-07-01-16)
+</div>
+</div>
+
+<!-- ICLR 2024 - One-shot-subgraph -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">ICLR 2024</div> -->
+<!-- <img src='/_pages/data/figures/one-shot-subgraph.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-one-shot-subgraph.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Less is More: One-shot Subgraph Reasoning on Large-scale Knowledge Graphs.  
+**Zhanke Zhou**, Yongqi Zhang, Jiangchao Yao, Quanming Yao, Bo Han✉️  
+ICLR 2024.
+[[paper]](https://arxiv.org/abs/2403.10231.pdf)
+[[code]](https://github.com/tmlr-group/one-shot-subgraph)
+[[slides]](/_pages/data/slides-one-shot-subgraph.pdf)
+[[poster]](/_pages/data/poster-one-shot-subgraph.pdf)
+[[EN-video]](https://iclr.cc/virtual/2024/poster/18681)
+</div>
+</div>
+
+
+<!-- ICLR 2024 - Neural Atoms -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">ICLR 2024</div> -->
+<!-- <img src='/_pages/data/figures/neural-atoms.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-neural-atoms.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Neural Atoms: Propagating Long-range Interaction in Molecular Graphs   
+through Efficient Communication Channel.  
+Xuan Li\*, **Zhanke Zhou\***, Jiangchao Yao, Yu Rong, Lu Zhang, Bo Han✉️  
+ICLR 2024.
+[[paper]](https://arxiv.org/abs/2311.01276.pdf)
+[[code]](https://github.com/tmlr-group/NeuralAtom)
+[[slides]](/_pages/data/slides-neural-atoms.pdf)
+[[poster]](/_pages/data/poster-neural-atoms.pdf)
+[[EN-video]](https://iclr.cc/virtual/2024/poster/19172)
+[[CN-video]](https://www.bilibili.com/video/BV1qH4y1L7mb/?share_source=copy_web&vd_source=65ec14228a98f635bf0406f14c7f8660&t=5342)  
+</div>
+</div>
+
+<!-- TMLR 2024 - Fairness Surrogate -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/fairness.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Understanding Fairness Surrogate Functions in Algorithmic Fairness.  
+Wei Yao\*, **Zhanke Zhou\***, Zhicong Li, Bo Han, Yong Liu✉️  
+TMLR 2024.
+[[paper]](https://arxiv.org/abs/2310.11211.pdf)
+[[code]](https://github.com/yw101004244/Understanding-Fairness-Surrogate-Functions)
+</div>
+</div>
+
+
+<!-- Arxiv 2024 - Model Inversion Attacks -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/MIA-survey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Model Inversion Attacks: A Survey of Approaches and Countermeasures.  
+**Zhanke Zhou\***, Jianing Zhu\*, Fengfei Yu\*, Xuan Li, Xiong Peng, Tongliang Liu, Bo Han✉️  
+Arxiv 2024.
+[[paper]](https://arxiv.org/abs/2411.10023)
+[[code]](https://github.com/AndrewZhou924/Awesome-model-inversion-attack)
+<!-- [[slides]]() -->
+<!-- [[poster]]() -->
+<!-- [[EN-video]]() -->
+<!-- [[CN-video]]() -->
+[[CN-blog]](https://mp.weixin.qq.com/s/9B5tFIFfDpu0njeTGBGWxQ)
+<!-- [[twitter]]() -->
+</div>
+</div>
+
+
+<!-- NeurIPS 2023 - RGIB -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">NeurIPS 2023</div> -->
+<!-- <img src='/_pages/data/figures/RGIB.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-RGIB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Combating Bilateral Edge Noise for Robust Link Prediction.  
+**Zhanke Zhou**, Jiangchao Yao✉️, Jiaxu Liu, Xiawei Guo, Quanming Yao,  
+Li He, Liang Wang, Bo Zheng, Bo Han✉️  
+NeurIPS 2023.
+[[paper]](https://arxiv.org/abs/2311.01196.pdf)
+[[code]](https://github.com/tmlr-group/RGIB)
+[[slides]](/_pages/data/slides-RGIB.pdf)
+[[poster]](/_pages/data/poster-RGIB.pdf)
+[[EN-video]](https://slideslive.com/39010502/combating-bilateral-edge-noise-for-robust-link-prediction?ref=search-presentations)
+[[CN-video]](https://www.bilibili.com/video/BV1cQ4y1x76L/?t=4490)
+[[CN-blog]](https://mp.weixin.qq.com/s/0GypXaICRLrJFywLpdW8bA)  
+</div>
+</div>
+
+
+<!-- ICML 2023 - MC-GRA -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">ICML 2023</div> -->
+<!-- <img src='/_pages/data/figures/MCGRA.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-GRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation.  
+**Zhanke Zhou**, Chenyu Zhou, Xuan Li, Jiangchao Yao✉️, Quanming Yao, Bo Han✉️  
+ICML 2023.
+[[paper]](https://arxiv.org/abs/2306.09104.pdf)
+[[code]](https://github.com/tmlr-group/MC-GRA)
+[[slides]](/_pages/data/slides-GRA.pdf)
+[[poster]](/_pages/data/poster-GRA.pdf)
+[[EN-video]](https://slideslive.com/39003755/on-strengthening-and-defending-graph-reconstruction-attack-with-markov-chain-approximation?ref=search-presentations)
+[[CN-video]](https://www.bilibili.com/video/BV1ag4y1Q7ye/?t=7945)
+[[CN-blog]](https://mp.weixin.qq.com/s/hKSEMuNx6-g5SXfLjveDlw)  
+</div>
+</div>
+
+
+<!-- KDD 2023 - AdaProp -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<!-- <div class="badge">KDD 2023</div> -->
+<!-- <img src='/_pages/data/figures/AdaProp.png' alt="sym" width="100%"></div></div> -->
+<img src='/_pages/data/poster-AdaProp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Adaprop: Learning Adaptive Propagation for Graph Neural Network Based Knowledge Graph Reasoning.  
+Yongqi Zhang\*, **Zhanke Zhou\***, Quanming Yao✉️, Xiaowen Chu, Bo Han  
+KDD 2023.
+[[paper]](https://arxiv.org/abs/2205.15319.pdf)
+[[code]](https://github.com/LARS-research/AdaProp)
+[[slides]](/_pages/data/slides-AdaProp.pdf)
+[[poster]](/_pages/data/poster-AdaProp.pdf)
+[[EN-video]](https://www.youtube.com/watch?v=4YggNGOcTOk)
+[[CN-video]](https://www.bilibili.com/video/BV1EP411p7fP/?t=2078)  
+</div>
+</div>
+
+<!-- ACL 2022 - KGTuner -->
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/_pages/data/figures/KGTuner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+KGTuner: Efficient Hyper-parameter Search for Knowledge Graph Learning.  
+Yongqi Zhang, **Zhanke Zhou**, Quanming Yao✉️, Yong Li  
+ACL 2022 (long paper).
+[[paper]](https://arxiv.org/abs/2205.02460.pdf)
+[[code]](https://github.com/LARS-research/KGTuner)
+[[slides]](/_pages/data/slides-KGTuner.pdf)
+[[poster]](/_pages/data/poster-KGTuner.pdf)
+[[EN-video]](https://www.youtube.com/watch?v=wSbJKPtUNjo/&t=1h52m)
+[[CN-blog]](https://mp.weixin.qq.com/s/Pt9j7Zm0ujVQHzt650zYvA)  
+</div>
+</div>
+
 # 🎖 Awards
 - *2026.06*, Best Poster Award by COMP of HKBU.
 - *2025.10*, Top Reviewer of NeurIPS.
@@ -203,9 +499,10 @@ NeurIPS 2024.
 # 💬 Talks
 - *2026.06*, Trustworthy and Efficient Machine Reasoning with Foundation Models
 Tutorial at PAKDD 2026, Hong Kong. 
-- *2026.06*, Trustworthy Reasoning with Foundation Models: Robustness, Autonomy, and Interpretability, Doctoral Consortium at PAKDD 2026, Hong Kong. 
+[[Website]](https://trustworthy-machine-reasoning.github.io/pakdd26-tutorial.html)
+- *2026.06*, Trustworthy Reasoning with Foundation Models: Robustness, Autonomy, and Interpretability, Doctoral Consortium at PAKDD 2026. 
 - *2026.01*, Trustworthy Machine Reasoning with Foundation Models, Tutorial at AAAI 2026, Singapore. 
-[[Website]](https://trustworthy-machine-reasoning.github.io/)
+[[Website]](https://trustworthy-machine-reasoning.github.io/aaai26-tutorial.html)
 [[Slides]](https://trustworthy-machine-reasoning.github.io/AAAI2026Tutorial-TH10-slides-20260120-v6.pdf)
 - *2025.10*, Towards Trustworthy Reasoning Agents: Understanding, Learning, and Systematizing, @LARS Group, THU.
 - *2025.07*, Towards Trustworthy Machine Reasoning: Noisy Rationales, Incomplete Information, and Interpretability, @Rose ML Lab, UCSD.
