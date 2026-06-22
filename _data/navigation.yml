@@ -5,16 +5,19 @@ main:
   - title: "Education"
     url: "/#-education-and-experience"
 
-  - title: "Publication"
+  - title: "Core Publications"
+    url: "/#-core-publications"
+
+  - title: "Selected Publications"
     url: "/#-selected-publications"
 
-  - title: "Award"
+  - title: "Awards"
     url: "/#-awards"
 
-  - title: "Talk"
+  - title: "Talks"
     url: "/#-talks"
 
-  - title: "Service"
+  - title: "Services"
     url: "/#-services"
 
   - title: "Teaching"
